@@ -1,0 +1,1242 @@
+[
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 14,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-14/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  CMake variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp:12:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:96:21: error: \u2018const class Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>\u2019 has no member named \u2018ptr\u2019\n   96 |     int *data = acc.ptr(rect.lo);\n      |                     ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp: In function \u2018void sift_down_root_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:118:21: error: \u2018const class Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>\u2019 has no member named \u2018ptr\u2019\n  118 |     int *data = acc.ptr(rect.lo);\n      |                     ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp: At global scope:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp:17:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   17 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:13:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   13 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp:18:5: error: \u2018SIFT_DOWN_RANGE_TASK_ID\u2019 conflicts with a previous declaration\n   18 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:14:5: note: previous declaration \u2018TaskIDs SIFT_DOWN_RANGE_TASK_ID\u2019\n   14 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp:22:5: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   22 |     FID_VAL,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:19:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   19 |     FID_VAL,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp:36:6: error: redefinition of \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019\n   36 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:82:6: note: \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019 previously defined here\n   82 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp:57:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, std::ptrdiff_t, int*&, std::size_t)\u2019\n   57 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   58 |                     static_cast<std::ptrdiff_t>(a.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   59 |                     start,\n      |                     ~~~~~~\n   60 |                     static_cast<std::size_t>(a.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:71:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, int64_t, int64_t, int64_t, Pred&&)\u2019\n   71 | void sift_down_range(T* data, int64_t len, int64_t start_idx,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/sift.hpp:71:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmprjc3t76g/heaps.cpp:57:20: note:   candidate expects 5 arguments, 6 provided\n   57 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   58 |                     static_cast<std::ptrdiff_t>(a.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   59 |                     start,\n      |                     ~~~~~~\n   60 |                     static_cast<std::size_t>(a.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.6s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp:12:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:96:21: error: \u2018const class Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>\u2019 has no member named \u2018ptr\u2019\n   96 |     int *data = acc.ptr(rect.lo);\n      |                     ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp: In function \u2018void sift_down_root_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:118:21: error: \u2018const class Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>\u2019 has no member named \u2018ptr\u2019\n  118 |     int *data = acc.ptr(rect.lo);\n      |                     ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp: At global scope:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp:17:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   17 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:13:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   13 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp:18:5: error: \u2018SIFT_DOWN_RANGE_TASK_ID\u2019 conflicts with a previous declaration\n   18 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:14:5: note: previous declaration \u2018TaskIDs SIFT_DOWN_RANGE_TASK_ID\u2019\n   14 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp:22:5: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   22 |     FID_VAL,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:19:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   19 |     FID_VAL,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp:36:6: error: redefinition of \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019\n   36 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:82:6: note: \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019 previously defined here\n   82 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp:57:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, std::ptrdiff_t, int*&, std::size_t)\u2019\n   57 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   58 |                     static_cast<std::ptrdiff_t>(a.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   59 |                     start,\n      |                     ~~~~~~\n   60 |                     static_cast<std::size_t>(a.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:71:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, int64_t, int64_t, int64_t, Pred&&)\u2019\n   71 | void sift_down_range(T* data, int64_t len, int64_t start_idx,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/sift.hpp:71:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpgfpvtwtb/heaps.cpp:57:20: note:   candidate expects 5 arguments, 6 provided\n   57 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   58 |                     static_cast<std::ptrdiff_t>(a.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   59 |                     start,\n      |                     ~~~~~~\n   60 |                     static_cast<std::size_t>(a.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 9,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-9/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpioyu1xeh/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.728,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpkup7xzrp/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.706,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.575,
+      2.612,
+      2.505,
+      3.542,
+      2.802,
+      2.602,
+      2.667
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 17,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-17/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include\n-- Configuring done (0.5s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpt4txmqwd/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  CMake variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpt4txmqwd/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpt4txmqwd/heaps.cpp:50:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, std::ptrdiff_t, int*, std::size_t)\u2019\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     static_cast<std::ptrdiff_t>(args.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~\n   53 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpt4txmqwd/heaps.cpp:13:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpt4txmqwd/sift.hpp:56:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, long long int, long long int, std::size_t, Pred&&)\u2019\n   56 | void sift_down_range(T* data, long long len, long long start_idx,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpt4txmqwd/sift.hpp:56:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpt4txmqwd/heaps.cpp:50:20: note:   candidate expects 5 arguments, 6 provided\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     static_cast<std::ptrdiff_t>(args.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~\n   53 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.6s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcy90c14q/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcy90c14q/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcy90c14q/heaps.cpp:50:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, std::ptrdiff_t, int*, std::size_t)\u2019\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     static_cast<std::ptrdiff_t>(args.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~\n   53 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcy90c14q/heaps.cpp:13:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcy90c14q/sift.hpp:56:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, long long int, long long int, std::size_t, Pred&&)\u2019\n   56 | void sift_down_range(T* data, long long len, long long start_idx,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcy90c14q/sift.hpp:56:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcy90c14q/heaps.cpp:50:20: note:   candidate expects 5 arguments, 6 provided\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     static_cast<std::ptrdiff_t>(args.n),\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~\n   53 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 19,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-19/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpf6r1rmzg/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.496,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpdwe05r2r/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.52,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.498,
+      5.235,
+      5.512,
+      5.657,
+      6.129,
+      7.435,
+      11.886
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 8,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-8/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/heaps.cpp:19:6: error: multiple definition of \u2018enum TaskIDs\u2019\n   19 | enum TaskIDs {\n      |      ^~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/heaps.cpp:15:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/sift.hpp:16:6: note: previous definition here\n   16 | enum TaskIDs {\n      |      ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/heaps.cpp:24:6: error: multiple definition of \u2018enum FieldIDs\u2019\n   24 | enum FieldIDs {\n      |      ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/sift.hpp:12:6: note: previous definition here\n   12 | enum FieldIDs {\n      |      ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/heaps.cpp:62:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*&, std::size_t)\u2019\n   62 |     sift_down_range(first, last, std::less<int>(), args.n, start,\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   63 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/sift.hpp:79:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(const Legion::FieldAccessor<LEGION_READ_WRITE, T, 1>&, int64_t, int64_t, int64_t, Pred)\u2019\n   79 | void sift_down_range(const FieldAccessor<READ_WRITE, T, 1>& acc,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/sift.hpp:79:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp31tui3i0/heaps.cpp:62:20: note:   mismatched types \u2018const Legion::FieldAccessor<LEGION_READ_WRITE, T, 1>\u2019 and \u2018int*\u2019\n   62 |     sift_down_range(first, last, std::less<int>(), args.n, start,\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   63 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.6s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/heaps.cpp:19:6: error: multiple definition of \u2018enum TaskIDs\u2019\n   19 | enum TaskIDs {\n      |      ^~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/heaps.cpp:15:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/sift.hpp:16:6: note: previous definition here\n   16 | enum TaskIDs {\n      |      ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/heaps.cpp:24:6: error: multiple definition of \u2018enum FieldIDs\u2019\n   24 | enum FieldIDs {\n      |      ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/sift.hpp:12:6: note: previous definition here\n   12 | enum FieldIDs {\n      |      ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/heaps.cpp:62:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*&, std::size_t)\u2019\n   62 |     sift_down_range(first, last, std::less<int>(), args.n, start,\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   63 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/sift.hpp:79:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(const Legion::FieldAccessor<LEGION_READ_WRITE, T, 1>&, int64_t, int64_t, int64_t, Pred)\u2019\n   79 | void sift_down_range(const FieldAccessor<READ_WRITE, T, 1>& acc,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/sift.hpp:79:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpz7u7st7p/heaps.cpp:62:20: note:   mismatched types \u2018const Legion::FieldAccessor<LEGION_READ_WRITE, T, 1>\u2019 and \u2018int*\u2019\n   62 |     sift_down_range(first, last, std::less<int>(), args.n, start,\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   63 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 13,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-13/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpou1lnduy/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\nCMake Warning (dev) at /gridapps/software/CMake/3.29.3-GCCcore-13.3.0/share/cmake-3.29/Modules/FindBoost.cmake:594 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nCall Stack (most recent call first):\n  CMakeLists.txt:21 (find_package)\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.608,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpo6bwkl_4/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.588,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.615,
+      5.322,
+      5.902,
+      5.791,
+      6.333,
+      8.307,
+      11.967
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 16,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-16/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: program_options\n-- Configuring done (0.5s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp5qitohfp/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\nCMake Warning (dev) at /gridapps/software/CMake/3.29.3-GCCcore-13.3.0/share/cmake-3.29/Modules/FindBoost.cmake:594 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nCall Stack (most recent call first):\n  CMakeLists.txt:23 (find_package)\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.656,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa70x589h/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.653,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.595,
+      4.33,
+      4.989,
+      5.242,
+      5.65,
+      8.07,
+      11.01
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 0,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-0/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpssz_etve/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.761,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpq7qhmihj/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.65,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.672,
+      2.868,
+      2.652,
+      3.219,
+      3.122,
+      2.711,
+      2.833
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 1,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-1/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmplh5fl4uz/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.86,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpzg8cgzoz/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.682,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.649,
+      2.876,
+      2.494,
+      2.608,
+      2.827,
+      2.625,
+      2.733
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 10,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-10/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.3s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpqn_bwc5h/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpqn_bwc5h/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpqn_bwc5h/heaps.cpp:59:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*&, std::size_t)\u2019\n   59 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   60 |                     args.n, start,\n      |                     ~~~~~~~~~~~~~~\n   61 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpqn_bwc5h/heaps.cpp:15:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpqn_bwc5h/sift.hpp:55:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, Pred&&, std::ptrdiff_t, std::ptrdiff_t, std::size_t)\u2019\n   55 | void sift_down_range(T* data, Pred&& pred, std::ptrdiff_t len,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpqn_bwc5h/sift.hpp:55:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpqn_bwc5h/heaps.cpp:59:20: note:   candidate expects 5 arguments, 6 provided\n   59 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   60 |                     args.n, start,\n      |                     ~~~~~~~~~~~~~~\n   61 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa9m1cxra/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa9m1cxra/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa9m1cxra/heaps.cpp:59:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*&, std::size_t)\u2019\n   59 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   60 |                     args.n, start,\n      |                     ~~~~~~~~~~~~~~\n   61 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa9m1cxra/heaps.cpp:15:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa9m1cxra/sift.hpp:55:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, Pred&&, std::ptrdiff_t, std::ptrdiff_t, std::size_t)\u2019\n   55 | void sift_down_range(T* data, Pred&& pred, std::ptrdiff_t len,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa9m1cxra/sift.hpp:55:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpa9m1cxra/heaps.cpp:59:20: note:   candidate expects 5 arguments, 6 provided\n   59 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   60 |                     args.n, start,\n      |                     ~~~~~~~~~~~~~~\n   61 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 12,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-12/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.5s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  CMake variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/heaps.cpp:17:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   17 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/heaps.cpp:12:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/sift.hpp:17:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   17 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/heaps.cpp:22:5: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   22 |     FID_VAL,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/sift.hpp:13:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   13 |     FID_VAL = 101,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/heaps.cpp: In function \u2018void sift_down_chunk_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/heaps.cpp:47:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*, std::size_t)\u2019\n   47 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   48 |                     args.total_n, first + args.start_pos,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   49 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/sift.hpp:75:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, long long int, long long int, std::size_t, Pred&&)\u2019\n   75 | void sift_down_range(T* data, long long len, long long start_idx,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/sift.hpp:75:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp74e73c1k/heaps.cpp:47:20: note:   candidate expects 5 arguments, 6 provided\n   47 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   48 |                     args.total_n, first + args.start_pos,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   49 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/heaps.cpp:17:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   17 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/heaps.cpp:12:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/sift.hpp:17:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   17 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/heaps.cpp:22:5: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   22 |     FID_VAL,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/sift.hpp:13:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   13 |     FID_VAL = 101,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/heaps.cpp: In function \u2018void sift_down_chunk_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/heaps.cpp:47:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*, std::size_t)\u2019\n   47 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   48 |                     args.total_n, first + args.start_pos,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   49 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/sift.hpp:75:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, long long int, long long int, std::size_t, Pred&&)\u2019\n   75 | void sift_down_range(T* data, long long len, long long start_idx,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/sift.hpp:75:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpn_qwhwqg/heaps.cpp:47:20: note:   candidate expects 5 arguments, 6 provided\n   47 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   48 |                     args.total_n, first + args.start_pos,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   49 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 3,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-3/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include\n-- Configuring done (0.5s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpopezucqr/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  CMake variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.402,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp27gsrpny/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.165,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.249,
+      3.976,
+      4.418,
+      4.868,
+      5.258,
+      7.369,
+      11.723
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 2,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-2/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpc9eo7663/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.723,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpd4vl4ijn/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.617,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.615,
+      2.522,
+      2.702,
+      3.023,
+      2.702,
+      2.518,
+      2.536
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 4,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-4/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include\n-- Configuring done (0.5s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  CMake variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/heaps.cpp:50:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*, uint64_t)\u2019\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     args.n, first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/heaps.cpp:13:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/sift.hpp:49:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, long long int, Pred&&, long long int, std::size_t)\u2019\n   49 | void sift_down_range(T* data, long long len, Pred&& pred,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/sift.hpp:49:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/heaps.cpp:50:20: note:   candidate expects 5 arguments, 6 provided\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     args.n, first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/heaps.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/heaps.cpp:225:22: error: no matching function for call to \u2018sift_down(int*&, int*, std::less<int>, const int64_t&, int*&)\u2019\n  225 |             sift_down(base, base + n, std::less<int>(), n, base);\n      |             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/sift.hpp:11:6: note: candidate: \u2018template<class T, class Pred> void sift_down(T*, long long int, Pred&&, long long int)\u2019\n   11 | void sift_down(T* data, long long len, Pred&& pred, long long start_idx)\n      |      ^~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/sift.hpp:11:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp1gcjmu9d/heaps.cpp:225:22: note:   candidate expects 4 arguments, 5 provided\n  225 |             sift_down(base, base + n, std::less<int>(), n, base);\n      |             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/heaps.cpp:50:20: error: no matching function for call to \u2018sift_down_range(int*&, int*&, std::less<int>, int64_t&, int*, uint64_t)\u2019\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     args.n, first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/heaps.cpp:13:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/sift.hpp:49:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, long long int, Pred&&, long long int, std::size_t)\u2019\n   49 | void sift_down_range(T* data, long long len, Pred&& pred,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/sift.hpp:49:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/heaps.cpp:50:20: note:   candidate expects 5 arguments, 6 provided\n   50 |     sift_down_range(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                     args.n, first + args.start_idx,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   52 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/heaps.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/heaps.cpp:225:22: error: no matching function for call to \u2018sift_down(int*&, int*, std::less<int>, const int64_t&, int*&)\u2019\n  225 |             sift_down(base, base + n, std::less<int>(), n, base);\n      |             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/sift.hpp:11:6: note: candidate: \u2018template<class T, class Pred> void sift_down(T*, long long int, Pred&&, long long int)\u2019\n   11 | void sift_down(T* data, long long len, Pred&& pred, long long start_idx)\n      |      ^~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/sift.hpp:11:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp6dm6n3s8/heaps.cpp:225:22: note:   candidate expects 4 arguments, 5 provided\n  225 |             sift_down(base, base + n, std::less<int>(), n, base);\n      |             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 7,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-7/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu76cf57t/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu76cf57t/heaps.cpp: In function \u2018void sift_down_chunk_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu76cf57t/heaps.cpp:85:24: error: no matching function for call to \u2018sift_down<int*>(int*&, int*&, std::less<int>, int64_t&, int*)\u2019\n   85 |         sift_down<int*>(first, last, std::less<int>(),\n      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   86 |                          args.n, first + args.start_idx - i);\n      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu76cf57t/heaps.cpp:14:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu76cf57t/sift.hpp:12:6: note: candidate: \u2018template<class T, class Pred> void sift_down(T*, Pred&&, long long int, long long int)\u2019\n   12 | void sift_down(T* data, Pred&& pred, long long len, long long start_idx)\n      |      ^~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu76cf57t/sift.hpp:12:6: note:   candidate expects 4 arguments, 5 provided\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcgk_cw1z/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcgk_cw1z/heaps.cpp: In function \u2018void sift_down_chunk_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcgk_cw1z/heaps.cpp:85:24: error: no matching function for call to \u2018sift_down<int*>(int*&, int*&, std::less<int>, int64_t&, int*)\u2019\n   85 |         sift_down<int*>(first, last, std::less<int>(),\n      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   86 |                          args.n, first + args.start_idx - i);\n      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcgk_cw1z/heaps.cpp:14:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcgk_cw1z/sift.hpp:12:6: note: candidate: \u2018template<class T, class Pred> void sift_down(T*, Pred&&, long long int, long long int)\u2019\n   12 | void sift_down(T* data, Pred&& pred, long long len, long long start_idx)\n      |      ^~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpcgk_cw1z/sift.hpp:12:6: note:   candidate expects 4 arguments, 5 provided\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 15,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-15/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpr423bick/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.613,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpkgfriwz2/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.558,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.619,
+      2.751,
+      3.678,
+      3.445,
+      2.721,
+      2.764,
+      2.841
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 5,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-5/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpnhtz3ocs/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:14 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 1.557,
+    "all_outputs_match": true,
+    "overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp12pabe2l/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n[100%] Linking CXX executable heaps\n[100%] Built target heaps\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 2.492,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "heaps.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      2.483,
+      5.283,
+      5.592,
+      5.913,
+      6.038,
+      7.521,
+      10.889
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 6,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-6/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:16:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   16 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:11:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/sift.hpp:20:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   20 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:17:5: error: \u2018SIFT_DOWN_RANGE_TASK_ID\u2019 conflicts with a previous declaration\n   17 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/sift.hpp:21:5: note: previous declaration \u2018TaskIDs SIFT_DOWN_RANGE_TASK_ID\u2019\n   21 |     SIFT_DOWN_RANGE_TASK_ID = 1,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:21:15: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   21 |     FID_VAL = 101,\n      |               ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/sift.hpp:16:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   16 |     FID_VAL = 0,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:30:6: error: redefinition of \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019\n   30 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/sift.hpp:86:13: note: \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019 previously defined here\n   86 | inline void sift_down_range_task(const Task *task,\n      |             ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:40:21: error: \u2018const class Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>\u2019 has no member named \u2018ptr\u2019\n   40 |     int *base = acc.ptr(Point<1>(0));\n      |                     ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:43:20: error: no matching function for call to \u2018sift_down_range(int*&, int*, std::less<int>, long long int&, int*, std::size_t)\u2019\n   43 |     sift_down_range(base, base + args.n, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   44 |                     args.n, base + args.start,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   45 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/sift.hpp:74:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, Pred&&, long long int, long long int, std::size_t)\u2019\n   74 | void sift_down_range(T* data, Pred&& pred, long long len,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/sift.hpp:74:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpuh0l7ak6/heaps.cpp:43:20: note:   candidate expects 5 arguments, 6 provided\n   43 |     sift_down_range(base, base + args.n, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   44 |                     args.n, base + args.start,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   45 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.6s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:16:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   16 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:11:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/sift.hpp:20:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   20 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:17:5: error: \u2018SIFT_DOWN_RANGE_TASK_ID\u2019 conflicts with a previous declaration\n   17 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/sift.hpp:21:5: note: previous declaration \u2018TaskIDs SIFT_DOWN_RANGE_TASK_ID\u2019\n   21 |     SIFT_DOWN_RANGE_TASK_ID = 1,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:21:15: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   21 |     FID_VAL = 101,\n      |               ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/sift.hpp:16:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   16 |     FID_VAL = 0,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:30:6: error: redefinition of \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019\n   30 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/sift.hpp:86:13: note: \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019 previously defined here\n   86 | inline void sift_down_range_task(const Task *task,\n      |             ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:40:21: error: \u2018const class Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>\u2019 has no member named \u2018ptr\u2019\n   40 |     int *base = acc.ptr(Point<1>(0));\n      |                     ^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:43:20: error: no matching function for call to \u2018sift_down_range(int*&, int*, std::less<int>, long long int&, int*, std::size_t)\u2019\n   43 |     sift_down_range(base, base + args.n, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   44 |                     args.n, base + args.start,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   45 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/sift.hpp:74:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, Pred&&, long long int, long long int, std::size_t)\u2019\n   74 | void sift_down_range(T* data, Pred&& pred, long long len,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/sift.hpp:74:6: note:   template argument deduction/substitution failed:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmp4db6movd/heaps.cpp:43:20: note:   candidate expects 5 arguments, 6 provided\n   43 |     sift_down_range(base, base + args.n, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   44 |                     args.n, base + args.start,\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   45 |                     static_cast<std::size_t>(args.count));\n      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 18,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-18/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: program_options\n-- Configuring done (0.5s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n  CMake that the project does not need compatibility with older versions.\n\n\nCMake Warning (dev) at /gridapps/software/CMake/3.29.3-GCCcore-13.3.0/share/cmake-3.29/Modules/FindBoost.cmake:594 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nCall Stack (most recent call first):\n  CMakeLists.txt:21 (find_package)\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/heaps.cpp:16:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   16 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/heaps.cpp:11:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/sift.hpp:18:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   18 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/heaps.cpp: In function \u2018void sift_chunk_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/heaps.cpp:49:26: error: no matching function for call to \u2018sift_down_range<int*>(int*&, int*&, std::less<int>, long long int&, int*, std::size_t)\u2019\n   49 |     sift_down_range<int*>(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   50 |                           args.n, first + args.start_offset,\n      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                           static_cast<std::size_t>(args.count));\n      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/sift.hpp:83:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, Pred&&, int64_t, int64_t, int64_t)\u2019\n   83 | void sift_down_range(T* data, Pred&& pred, int64_t len,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/sift.hpp:83:6: note:   candidate expects 5 arguments, 6 provided\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/heaps.cpp: In function \u2018void sift_root_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/heaps.cpp:69:20: error: no matching function for call to \u2018sift_down<int*>(int*&, int*&, std::less<int>, long long int&, int*&)\u2019\n   69 |     sift_down<int*>(first, last, std::less<int>(), n, first);\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/sift.hpp:41:6: note: candidate: \u2018template<class T, class Pred> void sift_down(T*, Pred&&, int64_t, int64_t)\u2019\n   41 | void sift_down(T* data, Pred&& pred, int64_t len, int64_t start_idx)\n      |      ^~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmn27jhu6/sift.hpp:41:6: note:   candidate expects 4 arguments, 5 provided\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/heaps.cpp:16:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   16 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/heaps.cpp:11:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/sift.hpp:18:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   18 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/heaps.cpp: In function \u2018void sift_chunk_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/heaps.cpp:49:26: error: no matching function for call to \u2018sift_down_range<int*>(int*&, int*&, std::less<int>, long long int&, int*, std::size_t)\u2019\n   49 |     sift_down_range<int*>(first, last, std::less<int>(),\n      |     ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   50 |                           args.n, first + args.start_offset,\n      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   51 |                           static_cast<std::size_t>(args.count));\n      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/sift.hpp:83:6: note: candidate: \u2018template<class T, class Pred> void sift_down_range(T*, Pred&&, int64_t, int64_t, int64_t)\u2019\n   83 | void sift_down_range(T* data, Pred&& pred, int64_t len,\n      |      ^~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/sift.hpp:83:6: note:   candidate expects 5 arguments, 6 provided\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/heaps.cpp: In function \u2018void sift_root_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/heaps.cpp:69:20: error: no matching function for call to \u2018sift_down<int*>(int*&, int*&, std::less<int>, long long int&, int*&)\u2019\n   69 |     sift_down<int*>(first, last, std::less<int>(), n, first);\n      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/sift.hpp:41:6: note: candidate: \u2018template<class T, class Pred> void sift_down(T*, Pred&&, int64_t, int64_t)\u2019\n   41 | void sift_down(T* data, Pred&& pred, int64_t len, int64_t start_idx)\n      |      ^~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpmsupfyrq/sift.hpp:41:6: note:   candidate expects 4 arguments, 5 provided\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "heapify",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 11,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/claude_4.6_opus/output-11/repo",
+    "input_token_count": 279420,
+    "output_token_count": 802030,
+    "request_count": 80,
+    "generation_time": 47332.140316963196,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Found Legion: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include\n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:18 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:25 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  CMake variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp:19:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   19 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp:13:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/sift.hpp:15:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   15 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp:20:5: error: \u2018SIFT_DOWN_RANGE_TASK_ID\u2019 conflicts with a previous declaration\n   20 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/sift.hpp:16:5: note: previous declaration \u2018TaskIDs SIFT_DOWN_RANGE_TASK_ID\u2019\n   16 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp:25:15: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   25 |     FID_VAL = 0,\n      |               ^\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/sift.hpp:10:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   10 |     FID_VAL = 0,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp:36:6: error: redefinition of \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019\n   36 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/sift.hpp:83:13: note: \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019 previously defined here\n   83 | inline void sift_down_range_task(const Task *task,\n      |             ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp:49:21: error: invalid initialization of reference of type \u2018const Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>&\u2019 from expression of type \u2018int*\u2019\n   49 |     sift_down_range(first, last, std::less<int>(),\n      |                     ^~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/sift.hpp:73:70: note: in passing argument 1 of \u2018void sift_down_range(const Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>&, int64_t, int64_t, int64_t)\u2019\n   73 | inline void sift_down_range(const FieldAccessor<READ_WRITE, int, 1> &acc,\n      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp: In function \u2018void sift_down_root_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpie6wz52n/heaps.cpp:68:15: error: expected primary-expression before \u2018int\u2019\n   68 |     sift_down<int *>(first, last, std::less<int>(), n, first);\n      |               ^~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 13.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/13.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-13.3.0/lib/libz.so (found version \"1.3.1\")\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\") found components: system thread filesystem program_options chrono date_time atomic\n-- Configuring done (0.7s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/build\n[ 50%] Building CXX object CMakeFiles/heaps.dir/heaps.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:11 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp:19:5: error: \u2018TOP_LEVEL_TASK_ID\u2019 conflicts with a previous declaration\n   19 |     TOP_LEVEL_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp:13:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/sift.hpp:15:5: note: previous declaration \u2018TaskIDs TOP_LEVEL_TASK_ID\u2019\n   15 |     TOP_LEVEL_TASK_ID = 0,\n      |     ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp:20:5: error: \u2018SIFT_DOWN_RANGE_TASK_ID\u2019 conflicts with a previous declaration\n   20 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/sift.hpp:16:5: note: previous declaration \u2018TaskIDs SIFT_DOWN_RANGE_TASK_ID\u2019\n   16 |     SIFT_DOWN_RANGE_TASK_ID,\n      |     ^~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp:25:15: error: \u2018FID_VAL\u2019 conflicts with a previous declaration\n   25 |     FID_VAL = 0,\n      |               ^\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/sift.hpp:10:5: note: previous declaration \u2018FieldIDs FID_VAL\u2019\n   10 |     FID_VAL = 0,\n      |     ^~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp:36:6: error: redefinition of \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019\n   36 | void sift_down_range_task(const Task *task,\n      |      ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/sift.hpp:83:13: note: \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019 previously defined here\n   83 | inline void sift_down_range_task(const Task *task,\n      |             ^~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp: In function \u2018void sift_down_range_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp:49:21: error: invalid initialization of reference of type \u2018const Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>&\u2019 from expression of type \u2018int*\u2019\n   49 |     sift_down_range(first, last, std::less<int>(),\n      |                     ^~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/sift.hpp:73:70: note: in passing argument 1 of \u2018void sift_down_range(const Legion::FieldAccessor<LEGION_READ_WRITE, int, 1>&, int64_t, int64_t, int64_t)\u2019\n   73 | inline void sift_down_range(const FieldAccessor<READ_WRITE, int, 1> &acc,\n      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp: In function \u2018void sift_down_root_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/heapify/scratch/claude_4.6_opus/tmpu5vhp9fg/heaps.cpp:68:15: error: expected primary-expression before \u2018int\u2019\n   68 |     sift_down<int *>(first, last, std::less<int>(), n, first);\n      |               ^~~\nmake[2]: *** [CMakeFiles/heaps.dir/build.make:76: CMakeFiles/heaps.dir/heaps.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/heaps.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "heaps.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  }
+]
