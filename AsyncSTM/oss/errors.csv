@@ -1,0 +1,1042 @@
+output_number,phase,source,error_type,error_message,app,llm,dest_model
+14,build,build,Type_Error,astm.hpp:134:24: error: typedef declared ‘auto’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,astm.hpp:189:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:189:36: error: no match for call to ‘(std::future<void>) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,astm.hpp:194:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:194:36: error: no match for call to ‘(std::future<void>) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:202:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:134:24: error: typedef declared ‘auto’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,astm.hpp:243:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,astm.hpp:245:48: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,astm.hpp:247:43: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,astm.hpp:249:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,"astm.hpp:314:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:315:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:315:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:134:24: error: missing template argument list after ‘std::future’; template placeholder not permitted in parameter,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,"astm.hpp:326:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,"astm.hpp:384:52: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:385:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:385:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,"astm.hpp:388:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,"astm.hpp:390:31: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,"astm.hpp:393:22: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,"astm.hpp:393:45: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,"astm.hpp:471:46: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:471:54: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Declaration_Or_Function_Call_Error,astm.hpp:471:60: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,"astm.hpp:472:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,astm.hpp:517:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,binary_tree.cpp:40:7: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Syntax_Error,binary_tree.cpp:40:19: error: expected primary-expression before ‘int’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,binary_tree.cpp:64:9: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,binary_tree.cpp:75:18: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,"binary_tree.cpp:106:65: error: no matching function for call to ‘Legion::Runtime::register_legion_task<BinaryTreeTopLevelTask::TASK_ID>(void (&)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*), Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,"binary_tree.cpp:106:65: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,"binary_tree.cpp:106:65: error: conversion from ‘int’ to ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)’ {aka ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Internal::TaskContext*, Legion::Runtime*)’} in a converted constant expression",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,build,Type_Error,"binary_tree.cpp:106:65: error: could not convert ‘BinaryTreeTopLevelTask::TASK_ID’ from ‘const int’ to ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)’ {aka ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Internal::TaskContext*, Legion::Runtime*)’}",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Syntax_Error,astm.hpp:61:27: error: ‘register_task_void’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,astm.hpp:112:69: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Declaration_Or_Function_Call_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:18683:30: error: forming reference to void,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,astm.hpp:112:69: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,astm.hpp:202:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,astm.hpp:112:69: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,astm.hpp:112:69: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,astm.hpp:112:69: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,astm.hpp:112:69: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,binary_tree.cpp:40:7: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Syntax_Error,binary_tree.cpp:40:19: error: expected primary-expression before ‘int’,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,binary_tree.cpp:64:9: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,binary_tree.cpp:75:18: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,"binary_tree.cpp:106:65: error: no matching function for call to ‘Legion::Runtime::register_legion_task<BinaryTreeTopLevelTask::TASK_ID>(void (&)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*), Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,"binary_tree.cpp:106:65: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,"binary_tree.cpp:106:65: error: conversion from ‘int’ to ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)’ {aka ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Internal::TaskContext*, Legion::Runtime*)’} in a converted constant expression",AsyncSTM,openai/gpt-oss-120b,Legion
+14,build,code_only_build,Type_Error,"binary_tree.cpp:106:65: error: could not convert ‘BinaryTreeTopLevelTask::TASK_ID’ from ‘const int’ to ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)’ {aka ‘void (*)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Internal::TaskContext*, Legion::Runtime*)’}",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Syntax_Error,astm.hpp:74:26: error: ‘register_task_void’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Syntax_Error,astm.hpp:87:29: error: ‘launch’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Declaration_Or_Function_Call_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:18683:30: error: forming reference to void,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,astm.hpp:136:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,"astm.hpp:300:27: error: no match for call to ‘(std::_Bind_helper<false, Legion::Future (&)(std::function<void()>), const std::_Placeholder<1>&>::type) (std::function<void(astm::transaction*)>&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (*&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (* const&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (* volatile&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (* const volatile&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,"astm.hpp:303:39: error: no match for call to ‘(std::_Bind_helper<false, Legion::Future (&)(std::function<void()>), const std::_Placeholder<1>&>::type) (std::function<void(astm::transaction*)>&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Syntax_Error,astm.hpp:362:36: error: expected identifier before ‘operator’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Declaration_Or_Function_Call_Error,astm.hpp:362:57: error: non-member function ‘astm::operator const T&()’ cannot have cv-qualifier,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Syntax_Error,astm.hpp:362:36: error: ‘astm::operator const T&()’ must be a non-static member function,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,binary_tree.cpp:214:41: error: converting to ‘bool’ from ‘std::nullptr_t’ requires direct-initialization [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,build,Type_Error,"binary_tree.cpp:224:40: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm_config.hpp:69:9: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm_config.hpp:76:30: error: ‘register_task_void’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm_config.hpp:99:64: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::TaskLauncher)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:74:26: error: ‘register_task_void’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:87:29: error: ‘launch’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Declaration_Or_Function_Call_Error,astm_config.hpp:29:43: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Declaration_Or_Function_Call_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:18683:30: error: forming reference to void,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:136:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm_config.hpp:26:43: error: ‘mutex’ in namespace ‘std’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Declaration_Or_Function_Call_Error,astm_config.hpp:29:43: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:176:29: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:178:49: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:180:55: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:182:59: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:38:64: error: no matching function for call to ‘Legion::Future::from_value<void>(std::nullptr_t)’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Declaration_Or_Function_Call_Error,"astm.hpp:191:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm_config.hpp:29:43: error: ‘unique_lock’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm_config.hpp:29:60: error: ‘mutex’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm_config.hpp:29:65: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm_config.hpp:29:65: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:272:28: error: expected unqualified-id before ‘>’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:275:13: error: ‘locks’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:275:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,"astm.hpp:300:27: error: no match for call to ‘(std::_Bind_helper<false, Legion::Future (&)(std::function<void()>), const std::_Placeholder<1>&>::type) (std::function<void(astm::transaction*)>&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (*&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (* const&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (* volatile&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<Legion::Future (* const volatile&(std::function<void(astm::transaction*)>&))(std::function<void()>)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,"astm.hpp:303:39: error: no match for call to ‘(std::_Bind_helper<false, Legion::Future (&)(std::function<void()>), const std::_Placeholder<1>&>::type) (std::function<void(astm::transaction*)>&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:362:36: error: expected identifier before ‘operator’,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:362:57: error: non-member function ‘astm::operator const T&()’ cannot have cv-qualifier,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Syntax_Error,astm.hpp:362:36: error: ‘astm::operator const T&()’ must be a non-static member function,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,binary_tree.cpp:214:41: error: converting to ‘bool’ from ‘std::nullptr_t’ requires direct-initialization [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,"binary_tree.cpp:224:40: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:191:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+9,build,code_only_build,Type_Error,astm.hpp:191:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:44:16: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:47:33: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:47:46: error: expected unqualified-id before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:47:45: error: expected ‘)’ before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:47:41: error: expected ‘;’ at end of member declaration,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Declaration_Or_Function_Call_Error,astm.hpp:47:47: error: ISO C++ forbids declaration of ‘task’ with no type [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:48:27: error: expected unqualified-id before ‘const’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:67:10: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:107:13: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:111:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:154:27: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:155:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:116:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:116:14: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:121:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:121:14: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:132:9: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:134:22: error: ‘orig’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:134:37: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,"astm.hpp:134:53: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:136:11: error: ‘orig’ is not captured,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:150:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:154:45: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:177:13: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:206:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:208:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:208:43: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:209:57: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:209:63: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:210:63: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:210:69: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:211:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:211:73: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:262:13: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,"astm.hpp:264:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:265:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:265:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:284:29: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,"astm.hpp:284:45: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:388:15: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,"astm.hpp:388:29: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,"astm.hpp:276:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:315:25: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:315:25: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:86:20: error: ‘launch’ is not a member of ‘LegionAsyncTask’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:320:28: error: ‘runtime’ was not declared in this scope; did you mean ‘Runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:320:37: error: ‘ctx’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:328:17: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:329:30: error: ‘orig’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:329:46: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,"astm.hpp:329:62: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:330:21: error: ‘orig’ is not captured,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:331:21: error: ‘op’ is not captured,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:334:46: error: ‘launch’ is not a member of ‘LegionAsyncTask’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:334:53: error: ‘runtime’ was not declared in this scope; did you mean ‘Runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:334:62: error: ‘ctx’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,"astm.hpp:390:20: error: request for member ‘emplace_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:390:33: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:390:38: error: ‘F’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:398:36: error: expected identifier before ‘operator’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Declaration_Or_Function_Call_Error,astm.hpp:398:57: error: non-member function ‘astm::operator const T&()’ cannot have cv-qualifier,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:398:36: error: ‘astm::operator const T&()’ must be a non-static member function,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Declaration_Or_Function_Call_Error,astm.hpp:440:6: error: redefinition of ‘void astm::transaction_future::then(F)’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:455:9: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Syntax_Error,astm.hpp:456:30: error: ‘TASK_ID’ is not a member of ‘LegionAsyncTask’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,astm.hpp:459:13: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,binary_tree.cpp:68:39: error: no matching function for call to ‘astm::transaction::commit_transaction()’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,build,Type_Error,binary_tree.cpp:78:39: error: no matching function for call to ‘astm::transaction::commit_transaction()’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:44:16: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:47:33: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:47:46: error: expected unqualified-id before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:47:45: error: expected ‘)’ before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:47:41: error: expected ‘;’ at end of member declaration,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:47:47: error: ISO C++ forbids declaration of ‘task’ with no type [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:48:27: error: expected unqualified-id before ‘const’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:67:10: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:107:13: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:111:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:154:27: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:155:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:116:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:116:14: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:121:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:121:14: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:132:9: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:134:22: error: ‘orig’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:134:37: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,"astm.hpp:134:53: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:136:11: error: ‘orig’ is not captured,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:150:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:154:45: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:177:13: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:206:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:208:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:208:43: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:209:57: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:209:63: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:210:63: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:210:69: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:211:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:211:73: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:262:13: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,"astm.hpp:264:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:265:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:265:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:284:29: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,"astm.hpp:284:45: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:388:15: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,"astm.hpp:388:29: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,"astm.hpp:276:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:315:25: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:315:25: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:86:20: error: ‘launch’ is not a member of ‘LegionAsyncTask’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:320:28: error: ‘runtime’ was not declared in this scope; did you mean ‘Runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:320:37: error: ‘ctx’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:328:17: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:329:30: error: ‘orig’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:329:46: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,"astm.hpp:329:62: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:330:21: error: ‘orig’ is not captured,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:331:21: error: ‘op’ is not captured,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:334:46: error: ‘launch’ is not a member of ‘LegionAsyncTask’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:334:53: error: ‘runtime’ was not declared in this scope; did you mean ‘Runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:334:62: error: ‘ctx’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,"astm.hpp:390:20: error: request for member ‘emplace_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:390:33: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:390:38: error: ‘F’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:398:36: error: expected identifier before ‘operator’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:398:57: error: non-member function ‘astm::operator const T&()’ cannot have cv-qualifier,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:398:36: error: ‘astm::operator const T&()’ must be a non-static member function,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:440:6: error: redefinition of ‘void astm::transaction_future::then(F)’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:455:9: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:456:30: error: ‘TASK_ID’ is not a member of ‘LegionAsyncTask’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,astm.hpp:459:13: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:68:39: error: no matching function for call to ‘astm::transaction::commit_transaction()’,AsyncSTM,openai/gpt-oss-120b,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:78:39: error: no matching function for call to ‘astm::transaction::commit_transaction()’,AsyncSTM,openai/gpt-oss-120b,Legion
+19,build,build,Type_Error,"binary_tree.cpp:200:40: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+19,build,code_only_build,Type_Error,"binary_tree.cpp:200:40: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+8,build,build,Type_Error,binary_tree.cpp:160:56: error: no matching function for call to ‘Legion::Runtime::register_legion_task<binary_tree_task>(Legion::TaskVariantRegistrar&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+8,build,code_only_build,Type_Error,binary_tree.cpp:160:56: error: no matching function for call to ‘Legion::Runtime::register_legion_task<binary_tree_task>(Legion::TaskVariantRegistrar&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:93:5: error: ‘WriteAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:93:19: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:93:42: error: ‘acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:118:5: error: ‘ReadAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:118:18: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:118:41: error: ‘cur_acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:131:9: error: ‘WriteAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:131:23: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:131:46: error: ‘wacc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:144:9: error: ‘WriteAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:144:23: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:144:46: error: ‘wacc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:167:5: error: ‘ReadAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:167:18: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:167:41: error: ‘cur_acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Syntax_Error,binary_tree.cpp:194:60: error: ‘from_rect’ is not a member of ‘Legion::Domain’,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:253:5: error: ‘ReadAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:253:18: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Type_Error,binary_tree.cpp:253:41: error: ‘acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Syntax_Error,binary_tree.cpp:260:10: error: ‘memcpy’ is not a member of ‘std’; did you mean ‘wmemcpy’?,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,build,Declaration_Or_Function_Call_Error,"binary_tree.cpp:302:49: error: cannot call member function ‘Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID) [with void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*) = top_level_task; Legion::VariantID = unsigned int]’ without object",AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:93:5: error: ‘WriteAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:93:19: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:93:42: error: ‘acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:118:5: error: ‘ReadAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:118:18: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:118:41: error: ‘cur_acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:131:9: error: ‘WriteAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:131:23: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:131:46: error: ‘wacc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:144:9: error: ‘WriteAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:144:23: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:144:46: error: ‘wacc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:167:5: error: ‘ReadAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:167:18: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:167:41: error: ‘cur_acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Syntax_Error,binary_tree.cpp:194:60: error: ‘from_rect’ is not a member of ‘Legion::Domain’,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:253:5: error: ‘ReadAccessor’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:253:18: error: ‘AccessorType’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:253:41: error: ‘acc’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Syntax_Error,binary_tree.cpp:260:10: error: ‘memcpy’ is not a member of ‘std’; did you mean ‘wmemcpy’?,AsyncSTM,openai/gpt-oss-120b,Legion
+13,build,code_only_build,Declaration_Or_Function_Call_Error,"binary_tree.cpp:302:49: error: cannot call member function ‘Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID) [with void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*) = top_level_task; Legion::VariantID = unsigned int]’ without object",AsyncSTM,openai/gpt-oss-120b,Legion
+16,build,build,Syntax_Error,binary_tree.cpp:4:17: error: stray ‘#’ in program,AsyncSTM,openai/gpt-oss-120b,Legion
+16,build,build,Type_Error,binary_tree.cpp:1:1: error: ‘mkdir’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+16,build,code_only_build,Syntax_Error,binary_tree.cpp:4:17: error: stray ‘#’ in program,AsyncSTM,openai/gpt-oss-120b,Legion
+16,build,code_only_build,Type_Error,binary_tree.cpp:1:1: error: ‘mkdir’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:100:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘set_provenance’; did you mean ‘provenance’?,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:106:32: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::TaskLauncher&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Declaration_Or_Function_Call_Error,astm.hpp:33:40: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:151:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:156:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:164:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:29:40: error: ‘mutex’ in namespace ‘std’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Declaration_Or_Function_Call_Error,astm.hpp:33:40: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:205:29: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:205:65: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:207:40: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:207:76: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:209:46: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:209:82: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:211:59: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:211:95: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Declaration_Or_Function_Call_Error,"astm.hpp:218:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:33:40: error: ‘unique_lock’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:33:57: error: ‘mutex’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:33:62: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:33:62: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:304:28: error: expected unqualified-id before ‘>’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:312:13: error: ‘locks’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:312:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Declaration_Or_Function_Call_Error,astm.hpp:357:38: error: invalid use of ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:357:62: error: expected primary-expression before ‘)’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Declaration_Or_Function_Call_Error,"binary_tree.cpp:233:62: error: cannot call member function ‘Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID) [with void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*) = binary_tree_top_level; Legion::VariantID = unsigned int]’ without object",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,"binary_tree.cpp:242:40: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:72:29: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,"astm.hpp:86:86: error: no matching function for call to ‘Legion::Runtime::register_task_variant<legion_async<std::function<void(astm::transaction*)>&, astm::transaction*>(std::function<void(astm::transaction*)>&, astm::transaction*&&)::AsyncTask::legion_task_wrapper>(Legion::TaskVariantRegistrar&, const char [11])’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,"astm.hpp:86:86: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID)’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,"astm.hpp:86:86: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, class UDT, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, const UDT&, Legion::VariantID)’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:87:24: error: invalid conversion from ‘const char*’ to ‘Legion::VariantID’ {aka ‘unsigned int’} [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,"astm.hpp:86:86: error: type/value mismatch at argument 1 in template parameter list for ‘template<class UDT, void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, const UDT&, Legion::VariantID)’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Syntax_Error,astm.hpp:96:15: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:218:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,build,Type_Error,astm.hpp:218:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:100:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘set_provenance’; did you mean ‘provenance’?,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:106:32: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::TaskLauncher&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:33:40: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:151:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:156:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:164:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:29:40: error: ‘mutex’ in namespace ‘std’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:33:40: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:205:29: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:205:65: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:207:40: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:207:76: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:209:46: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:209:82: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:211:59: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:211:95: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Declaration_Or_Function_Call_Error,"astm.hpp:218:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:33:40: error: ‘unique_lock’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:33:57: error: ‘mutex’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:33:62: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:33:62: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:304:28: error: expected unqualified-id before ‘>’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:312:13: error: ‘locks’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:312:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:357:38: error: invalid use of ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:357:62: error: expected primary-expression before ‘)’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Declaration_Or_Function_Call_Error,"binary_tree.cpp:233:62: error: cannot call member function ‘Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID) [with void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*) = binary_tree_top_level; Legion::VariantID = unsigned int]’ without object",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,"binary_tree.cpp:242:40: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:72:29: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,"astm.hpp:86:86: error: no matching function for call to ‘Legion::Runtime::register_task_variant<legion_async<std::function<void(astm::transaction*)>&, astm::transaction*>(std::function<void(astm::transaction*)>&, astm::transaction*&&)::AsyncTask::legion_task_wrapper>(Legion::TaskVariantRegistrar&, const char [11])’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,"astm.hpp:86:86: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID)’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,"astm.hpp:86:86: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, class UDT, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, const UDT&, Legion::VariantID)’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:87:24: error: invalid conversion from ‘const char*’ to ‘Legion::VariantID’ {aka ‘unsigned int’} [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,"astm.hpp:86:86: error: type/value mismatch at argument 1 in template parameter list for ‘template<class UDT, void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, const UDT&, Legion::VariantID)’",AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Syntax_Error,astm.hpp:96:15: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:218:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+0,build,code_only_build,Type_Error,astm.hpp:218:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:100:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘add_argument’; did you mean ‘argument’?,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:123:20: error: ‘make_future’ is not a member of ‘Legion::Future’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:123:32: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:123:32: error: expected ‘;’ before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:123:36: error: expected unqualified-id before ‘>’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:30:42: error: ‘AutoLock’ in namespace ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:169:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:30:42: error: ‘AutoLock’ in namespace ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Declaration_Or_Function_Call_Error,"astm.hpp:223:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:30:42: error: ‘AutoLock’ is not a member of ‘Legion’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:309:28: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:309:28: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,"astm.hpp:317:19: error: request for member ‘push_back’ in ‘locks’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:317:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Syntax_Error,astm.hpp:359:43: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:86:41: error: cannot bind non-const lvalue reference of type ‘std::function<void(astm::transaction*)>&’ to an rvalue of type ‘std::remove_reference<std::function<void(astm::transaction*)>&>::type’ {aka ‘std::function<void(astm::transaction*)>’},AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,"astm.hpp:105:49: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::Internal::TaskContext*&, Legion::TaskLauncher&, unsigned int, std::nullptr_t, bool, void (&)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*))’",AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:223:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,build,Type_Error,astm.hpp:223:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:100:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘add_argument’; did you mean ‘argument’?,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:123:20: error: ‘make_future’ is not a member of ‘Legion::Future’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:123:32: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:123:32: error: expected ‘;’ before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:123:36: error: expected unqualified-id before ‘>’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:30:42: error: ‘AutoLock’ in namespace ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:169:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:30:42: error: ‘AutoLock’ in namespace ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Declaration_Or_Function_Call_Error,"astm.hpp:223:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:30:42: error: ‘AutoLock’ is not a member of ‘Legion’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:309:28: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:309:28: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,"astm.hpp:317:19: error: request for member ‘push_back’ in ‘locks’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:317:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:359:43: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:86:41: error: cannot bind non-const lvalue reference of type ‘std::function<void(astm::transaction*)>&’ to an rvalue of type ‘std::remove_reference<std::function<void(astm::transaction*)>&>::type’ {aka ‘std::function<void(astm::transaction*)>’},AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,"astm.hpp:105:49: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::Internal::TaskContext*&, Legion::TaskLauncher&, unsigned int, std::nullptr_t, bool, void (&)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*))’",AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:223:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+1,build,code_only_build,Type_Error,astm.hpp:223:22: error: ‘lock’ was not declared in this scope; did you mean ‘clock’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:60:26: error: ‘register_task_void’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:68:33: error: ‘get_task_id_by_name’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,astm.hpp:77:57: error: no matching function for call to ‘Legion::Future::from_value<void>(const std::function<void()>&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Declaration_Or_Function_Call_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:18683:30: error: forming reference to void,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,astm.hpp:82:56: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::TaskLauncher&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,astm.hpp:93:83: error: cannot convert ‘std::function<void()>’ to ‘const std::function<void()>*’ in initialization,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,astm.hpp:140:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,astm.hpp:299:31: error: invalid initialization of reference of type ‘const std::function<void()>&’ from expression of type ‘std::function<void(astm::transaction*)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:304:41: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:304:69: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:359:36: error: expected identifier before ‘operator’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Declaration_Or_Function_Call_Error,astm.hpp:359:57: error: non-member function ‘astm::operator const T&()’ cannot have cv-qualifier,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,astm.hpp:359:36: error: ‘astm::operator const T&()’ must be a non-static member function,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,binary_tree.cpp:43:5: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Syntax_Error,binary_tree.cpp:43:17: error: expected primary-expression before ‘int’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,binary_tree.cpp:66:7: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,build,Type_Error,binary_tree.cpp:78:16: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:60:26: error: ‘register_task_void’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:68:33: error: ‘get_task_id_by_name’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:77:57: error: no matching function for call to ‘Legion::Future::from_value<void>(const std::function<void()>&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Declaration_Or_Function_Call_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:18683:30: error: forming reference to void,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:82:56: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::TaskLauncher&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:93:83: error: cannot convert ‘std::function<void()>’ to ‘const std::function<void()>*’ in initialization,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:42:36: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:140:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:41:36: error: ‘mutex’ in namespace ‘std’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:42:36: error: ‘unique_lock’ in namespace ‘std’ does not name a template type,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:180:29: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:182:40: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:184:46: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:186:59: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:32: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:49:85: error: ‘class Legion::Runtime’ has no member named ‘get_implicit_runtime’; did you mean ‘get_mapper_runtime’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Declaration_Or_Function_Call_Error,"astm.hpp:193:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:43:31: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:42:36: error: ‘unique_lock’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:42:53: error: ‘mutex’ is not a member of ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:42:58: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:42:58: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:266:28: error: expected unqualified-id before ‘>’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:270:13: error: ‘locks’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:270:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,astm.hpp:299:31: error: invalid initialization of reference of type ‘const std::function<void()>&’ from expression of type ‘std::function<void(astm::transaction*)>’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:304:41: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:304:69: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:359:36: error: expected identifier before ‘operator’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:359:57: error: non-member function ‘astm::operator const T&()’ cannot have cv-qualifier,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,astm.hpp:359:36: error: ‘astm::operator const T&()’ must be a non-static member function,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,binary_tree.cpp:43:5: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Syntax_Error,binary_tree.cpp:43:17: error: expected primary-expression before ‘int’,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,binary_tree.cpp:66:7: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+10,build,code_only_build,Type_Error,binary_tree.cpp:78:16: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,astm_config.hpp:38:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,astm_config.hpp:39:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,astm_config.hpp:28:22: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,astm_config.hpp:28:22: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:35:8: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"astm.hpp:46:75: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID, Legion::ArgumentMap)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:47:25: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"astm.hpp:49:56: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::Internal::TaskContext&, Legion::TaskLauncher&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:95:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘add_argument’; did you mean ‘argument’?,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"astm.hpp:98:49: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::Internal::TaskContext&, Legion::TaskLauncher&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,astm.hpp:145:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:312:43: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"binary_tree.cpp:228:62: error: no matching function for call to ‘Legion::Runtime::register_legion_task<binary_tree_top_level_task>(const Legion::TaskID&, const char [27], Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"binary_tree.cpp:228:62: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"binary_tree.cpp:228:62: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, class UDT, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, const UDT&, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"binary_tree.cpp:228:62: error: type/value mismatch at argument 1 in template parameter list for ‘template<class UDT, void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, const UDT&, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:79:26: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Declaration_Or_Function_Call_Error,"astm.hpp:81:13: error: type ‘<type error>’ argument given to ‘delete’, expected pointer",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Syntax_Error,astm.hpp:86:15: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,build,Type_Error,"astm.hpp:91:26: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID, Legion::ArgumentMap, const Legion::Predicate&, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,astm_config.hpp:38:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,astm_config.hpp:39:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,astm_config.hpp:28:22: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,astm_config.hpp:28:22: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:35:8: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"astm.hpp:46:75: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID, Legion::ArgumentMap)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:47:25: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"astm.hpp:49:56: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::Internal::TaskContext&, Legion::TaskLauncher&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:95:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘add_argument’; did you mean ‘argument’?,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"astm.hpp:98:49: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::Internal::TaskContext&, Legion::TaskLauncher&)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,astm.hpp:145:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:59:30: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:312:43: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"binary_tree.cpp:228:62: error: no matching function for call to ‘Legion::Runtime::register_legion_task<binary_tree_top_level_task>(const Legion::TaskID&, const char [27], Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"binary_tree.cpp:228:62: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"binary_tree.cpp:228:62: error: type/value mismatch at argument 1 in template parameter list for ‘template<class T, class UDT, T (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, const UDT&, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"binary_tree.cpp:228:62: error: type/value mismatch at argument 1 in template parameter list for ‘template<class UDT, void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*, const UDT&)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, const UDT&, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:79:26: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Declaration_Or_Function_Call_Error,"astm.hpp:81:13: error: type ‘<type error>’ argument given to ‘delete’, expected pointer",AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Syntax_Error,astm.hpp:86:15: error: forming pointer to reference type ‘std::function<void(astm::transaction*)>&’,AsyncSTM,openai/gpt-oss-120b,Legion
+12,build,code_only_build,Type_Error,"astm.hpp:91:26: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID, Legion::ArgumentMap, const Legion::Predicate&, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:43:20: error: expected ‘;’ before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:43:20: error: expected unqualified-id before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm_config.hpp:141:24: error: a template-id may not appear in a using-declaration,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:44:20: error: expected ‘;’ before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:44:20: error: expected unqualified-id before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm_config.hpp:142:26: error: a template-id may not appear in a using-declaration,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:45:20: error: expected ‘;’ before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:45:20: error: expected unqualified-id before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:46:21: error: expected ‘;’ before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:46:21: error: expected unqualified-id before ‘=’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm_config.hpp:146:42: error: declaration of ‘async’ not in a namespace surrounding ‘std’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Declaration_Or_Function_Call_Error,astm_config.hpp:146:42: error: ‘std::future<void> std::async’ redeclared as different kind of entity,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,"astm.hpp:63:36: error: declaration of ‘std::future<void> async(Legion::Runtime*, Legion::Context, F&&)’ not in a namespace surrounding ‘std’",AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,"astm.hpp:84:40: error: definition of ‘auto std::async(Legion::Runtime*, Legion::Context, F&&)::<lambda>::operator()(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*) const’ is not in namespace enclosing ‘std::async(Legion::Runtime*, Legion::Context, F&&)::<lambda>’ [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm.hpp:98:33: error: could not convert ‘ctx->runtime->Legion::Runtime::execute_task(launcher)’ from ‘Legion::Future’ to ‘std::future<void>’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm.hpp:127:51: error: no match for call to ‘(std::future<void>) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm.hpp:130:52: error: no match for call to ‘(std::future<void>) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:138:14: error: ‘using astm::transaction_future::future_type = class std::future<void>’ {aka ‘class std::future<void>’} has no member named ‘get_void_result’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:286:39: error: ‘class std::future<void>’ has no member named ‘then’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:346:36: error: expected identifier before ‘operator’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Declaration_Or_Function_Call_Error,astm.hpp:346:57: error: non-member function ‘astm::operator const T&()’ cannot have cv-qualifier,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Syntax_Error,astm.hpp:346:36: error: ‘astm::operator const T&()’ must be a non-static member function,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm.hpp:175:54: error: no match for call to ‘(std::future<void>) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm.hpp:178:55: error: no match for call to ‘(std::future<void>) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,build,Type_Error,astm.hpp:178:55: error: no match for call to ‘(std::future<void>) ()’,AsyncSTM,openai/gpt-oss-120b,Legion
+3,build,code_only_build,Syntax_Error,astm_config.hpp:127:10: fatal error: hpx/util/lightweight_test.hpp: No such file or directory,AsyncSTM,openai/gpt-oss-120b,Legion
+2,build,build,Syntax_Error,astm_config.hpp:121:10: fatal error: hpx/util/lightweight_test.hpp: No such file or directory,AsyncSTM,openai/gpt-oss-120b,Legion
+2,build,code_only_build,Syntax_Error,astm_config.hpp:121:10: fatal error: hpx/util/lightweight_test.hpp: No such file or directory,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:40:14: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:43:35: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:43:48: error: expected unqualified-id before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:43:47: error: expected ‘)’ before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:43:48: error: expected initializer before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:59:9: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:59:47: error: ‘astm_async_task’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:60:13: error: ‘ASTM_ASYNC_TASK_ID’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:69:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:32:35: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:112:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:117:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:122:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:130:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:32:35: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:169:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:171:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:173:48: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:175:54: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:177:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:32:35: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,"astm.hpp:242:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:243:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:243:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:32:35: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,"astm.hpp:397:26: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,"astm.hpp:254:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:32:35: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,"astm.hpp:312:73: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:313:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:313:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,"astm.hpp:316:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,"astm.hpp:318:46: error: request for member ‘second’ in ‘op’, which is of non-class type ‘const int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:318:17: error: ‘ASTM_ASYNC’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,"astm.hpp:321:21: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,"astm.hpp:321:58: error: request for member ‘second’ in ‘op’, which is of non-class type ‘const int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:321:29: error: ‘ASTM_ASYNC’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:32:35: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,"astm.hpp:399:67: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:399:75: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:399:80: error: ‘F’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Declaration_Or_Function_Call_Error,astm.hpp:399:81: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Syntax_Error,"astm.hpp:400:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,build,Type_Error,astm.hpp:452:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:40:14: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:43:35: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:43:48: error: expected unqualified-id before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:43:47: error: expected ‘)’ before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:43:48: error: expected initializer before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:59:9: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:59:47: error: ‘astm_async_task’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:60:13: error: ‘ASTM_ASYNC_TASK_ID’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:69:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:32:35: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:112:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:117:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:122:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:130:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:32:35: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:169:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:171:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:173:48: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:175:54: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:177:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:85:5: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:85:73: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:32:35: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:242:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:243:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:243:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:32:35: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:397:26: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:254:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:32:35: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:312:73: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:313:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:313:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:316:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:318:46: error: request for member ‘second’ in ‘op’, which is of non-class type ‘const int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:318:17: error: ‘ASTM_ASYNC’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:321:21: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:321:58: error: request for member ‘second’ in ‘op’, which is of non-class type ‘const int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:321:29: error: ‘ASTM_ASYNC’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:32:35: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:399:67: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:399:75: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:399:80: error: ‘F’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:399:81: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:400:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+4,build,code_only_build,Type_Error,astm.hpp:452:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,/Users/robsonlab/scratch/hpx_to_legion_repo/AsyncSTM/scratch/oss/tmp65a9w6hw/binary_tree.cpp:185:(.text+0x67d): undefined reference to `Legion::Runtime::set_top_level_task_id(unsigned int)',AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,"/usr/bin/ld: /Users/robsonlab/scratch/hpx_to_legion_repo/AsyncSTM/scratch/oss/tmp65a9w6hw/binary_tree.cpp:189:(.text+0x69b): undefined reference to `Legion::TaskVariantRegistrar::TaskVariantRegistrar(unsigned int, char const*, bool)'",AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,/usr/bin/ld: /Users/robsonlab/scratch/hpx_to_legion_repo/AsyncSTM/scratch/oss/tmp65a9w6hw/binary_tree.cpp:190:(.text+0x6ac): undefined reference to `Legion::ProcessorConstraint::ProcessorConstraint(Realm::Processor::Kind)',AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,"/usr/bin/ld: /Users/robsonlab/scratch/hpx_to_legion_repo/AsyncSTM/scratch/oss/tmp65a9w6hw/binary_tree.cpp:196:(.text+0x71a): undefined reference to `Legion::Runtime::start(int, char**, bool, bool, bool)'",AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,"/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:20486:(.text+0x94b): undefined reference to `Legion::Runtime::preregister_task_variant(Legion::TaskVariantRegistrar const&, Realm::CodeDescriptor const&, void const*, unsigned long, char const*, unsigned int, unsigned long, bool, bool)'",AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,/usr/bin/ld: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:20488:(.text+0x95e): undefined reference to `Realm::CodeDescriptor::~CodeDescriptor()',AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,/usr/bin/ld: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:20488:(.text+0x971): undefined reference to `Realm::CodeDescriptor::~CodeDescriptor()',AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,"/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:20302:(.text+0xbe9): undefined reference to `Legion::Runtime::legion_task_preamble(void const*, unsigned long, Realm::Processor, Legion::Task const*&, std::vector<Legion::PhysicalRegion, std::allocator<Legion::PhysicalRegion> > const*&, Legion::Internal::TaskContext*&, Legion::Runtime*&)'",AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,/usr/bin/ld: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:20306:(.text+0xc10): undefined reference to `Realm::RegionInstance::NO_INST',AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,"/usr/bin/ld: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:20306:(.text+0xc36): undefined reference to `Legion::Runtime::legion_task_postamble(Legion::Internal::TaskContext*, void const*, unsigned long, bool, Realm::RegionInstance, void const*, unsigned long)'",AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion/legion.inl:18509:(.text._ZN6Legion20TaskVariantRegistrar14add_constraintERKNS_19ProcessorConstraintE[_ZN6Legion20TaskVariantRegistrar14add_constraintERKNS_19ProcessorConstraintE]+0x23): undefined reference to `Legion::ExecutionConstraintSet::add_constraint(Legion::ProcessorConstraint const&)',AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/realm/codedesc.inl:667:(.text._ZN5Realm14CodeDescriptorC2IPFvPKvmS3_mNS_9ProcessorEEEET_[_ZN5Realm14CodeDescriptorC5IPFvPKvmS3_mNS_9ProcessorEEEET_]+0x88): undefined reference to `Realm::FunctionPointerImplementation::FunctionPointerImplementation(void (*)())',AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,openai/gpt-oss-120b,Legion
+7,build,code_only_build,Syntax_Error,astm_config.hpp:101:10: fatal error: hpx/util/lightweight_test.hpp: No such file or directory,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:1:1: error: ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:2:1: error: ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:6:12: error: ‘Legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:7:12: error: ‘Legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"astm.hpp:7:28: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:8:13: error: ‘legion_runtime’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:8:30: error: ‘rt’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:9:13: error: ‘legion_context’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,astm.hpp:9:30: error: ‘ctx’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,binary_tree.cpp:15:17: error: ‘astm’ is not a namespace-name,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:33:9: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:35:9: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:36:9: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:46:37: error: ‘shared_var’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:46:47: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:88:17: error: ‘shared_var’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:88:27: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:108:27: error: ‘shared_var’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:108:37: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:127:5: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:39:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:39:29: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:39:37: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:43:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:43:31: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:43:40: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:47:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:47:31: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:47:36: error: ‘l’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:47:40: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:47:46: error: ‘r’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:51:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:51:31: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:51:39: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Syntax_Error,"binary_tree.cpp:56:9: error: class ‘binary_tree<Key, Value>’ does not have any field named ‘root’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:62:9: error: ‘transaction’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:64:26: error: ‘root’ was not declared in this scope; did you mean ‘root_’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:64:41: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:70:19: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:78:9: error: ‘transaction’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:80:29: error: ‘root’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:80:35: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:81:19: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:90:22: error: ‘leaf’ was not declared in this scope; did you mean ‘leaf_’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:90:37: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:110:22: error: ‘leaf’ was not declared in this scope; did you mean ‘leaf_’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Type_Error,binary_tree.cpp:110:37: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,build,Declaration_Or_Function_Call_Error,"binary_tree.cpp:226:5: error: redefinition of ‘int main(int, char**)’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:1:1: error: ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:2:1: error: ‘Legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:6:12: error: ‘Legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:7:12: error: ‘Legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"astm.hpp:7:28: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:8:13: error: ‘legion_runtime’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:8:30: error: ‘rt’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:9:13: error: ‘legion_context’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,astm.hpp:9:30: error: ‘ctx’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,binary_tree.cpp:15:17: error: ‘astm’ is not a namespace-name,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:33:9: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:35:9: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:36:9: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:46:37: error: ‘shared_var’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:46:47: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:88:17: error: ‘shared_var’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:88:27: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:108:27: error: ‘shared_var’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:108:37: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:127:5: error: ‘shared_var’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:39:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:39:29: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:39:37: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:43:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:43:31: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:43:40: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:47:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:47:31: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:47:36: error: ‘l’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:47:40: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:47:46: error: ‘r’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:51:13: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘key’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:51:31: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘left’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:51:39: error: class ‘binary_tree<Key, Value>::node’ does not have any field named ‘right’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Syntax_Error,"binary_tree.cpp:56:9: error: class ‘binary_tree<Key, Value>’ does not have any field named ‘root’",AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:62:9: error: ‘transaction’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:64:26: error: ‘root’ was not declared in this scope; did you mean ‘root_’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:64:41: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:70:19: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:78:9: error: ‘transaction’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:80:29: error: ‘root’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:80:35: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:81:19: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:90:22: error: ‘leaf’ was not declared in this scope; did you mean ‘leaf_’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:90:37: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:110:22: error: ‘leaf’ was not declared in this scope; did you mean ‘leaf_’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:110:37: error: ‘t’ was not declared in this scope; did you mean ‘tm’?,AsyncSTM,openai/gpt-oss-120b,Legion
+15,build,code_only_build,Declaration_Or_Function_Call_Error,"binary_tree.cpp:226:5: error: redefinition of ‘int main(int, char**)’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm_config.hpp:34:8: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm_config.hpp:52:40: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm_config.hpp:65:46: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm_config.hpp:71:25: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,"astm_config.hpp:56:13: error: no matching function for call to ‘Legion::Runtime::register_task_variant<Legion::Future(const Legion::Task*, const std::vector<Legion::PhysicalRegion, std::allocator<Legion::PhysicalRegion> >&, Legion::Context, Legion::Runtime*)>(const Legion::TaskID&, const char [18], Realm::Processor::Kind, bool, bool, Legion::TaskConfigOptions, legion_async_impl(std::function<void()>)::<lambda(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)>)’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm_config.hpp:80:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘set_provenance’; did you mean ‘provenance’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm_config.hpp:81:25: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm_config.hpp:84:5: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:29:23: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:33:5: error: ‘legion_lock_t’ does not name a type; did you mean ‘legion_coord_t’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:34:36: error: expected ‘)’ before ‘&’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:35:28: error: ‘lk_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:49:14: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:52:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:42:29: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:128:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:133:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:138:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:146:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:42:29: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:40:29: error: ‘legion_lock_t’ does not name a type; did you mean ‘legion_coord_t’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:185:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:187:29: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:187:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:189:40: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:189:48: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:191:46: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:191:54: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:193:59: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:193:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:224:26: error: ‘mtx_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:42:29: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,"astm.hpp:258:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:259:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:259:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:42:29: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:417:26: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:270:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:42:29: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,"astm.hpp:327:73: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:328:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:328:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:331:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:333:31: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:333:17: error: ‘ASTM_ASYNC’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:335:22: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:335:36: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:335:61: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:42:29: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,"astm.hpp:419:67: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:419:75: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:419:80: error: ‘F’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Declaration_Or_Function_Call_Error,astm.hpp:419:81: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,"astm.hpp:420:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Type_Error,astm.hpp:465:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,build,Syntax_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/bits/new_allocator.h:191:11: error: use of deleted function ‘legion_lock_guard::legion_lock_guard(const legion_lock_guard&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm_config.hpp:34:8: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm_config.hpp:52:40: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm_config.hpp:65:46: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm_config.hpp:71:25: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,"astm_config.hpp:56:13: error: no matching function for call to ‘Legion::Runtime::register_task_variant<Legion::Future(const Legion::Task*, const std::vector<Legion::PhysicalRegion, std::allocator<Legion::PhysicalRegion> >&, Legion::Context, Legion::Runtime*)>(const Legion::TaskID&, const char [18], Realm::Processor::Kind, bool, bool, Legion::TaskConfigOptions, legion_async_impl(std::function<void()>)::<lambda(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)>)’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm_config.hpp:80:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘set_provenance’; did you mean ‘provenance’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm_config.hpp:81:25: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm_config.hpp:84:5: error: ‘Legion::Future’ is not a template,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:29:23: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:33:5: error: ‘legion_lock_t’ does not name a type; did you mean ‘legion_coord_t’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:34:36: error: expected ‘)’ before ‘&’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:35:28: error: ‘lk_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:49:14: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:52:8: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:42:29: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:128:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:133:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:138:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:146:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:42:29: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:40:29: error: ‘legion_lock_t’ does not name a type; did you mean ‘legion_coord_t’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:185:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:187:29: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:187:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:189:40: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:189:48: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:191:46: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:191:54: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:193:59: error: class ‘astm::shared_var<T>’ does not have any field named ‘mtx_’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:193:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:82:32: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,astm.hpp:82:59: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:224:26: error: ‘mtx_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:42:29: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,"astm.hpp:258:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:259:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:259:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:42:29: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:417:26: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:270:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:42:29: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,"astm.hpp:327:73: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:328:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:328:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:331:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:333:31: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:333:17: error: ‘ASTM_ASYNC’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:335:22: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:335:36: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:335:61: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:42:29: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,"astm.hpp:419:67: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:419:75: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:419:80: error: ‘F’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:419:81: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,"astm.hpp:420:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Type_Error,astm.hpp:465:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+5,build,code_only_build,Syntax_Error,/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/bits/new_allocator.h:191:11: error: use of deleted function ‘legion_lock_guard::legion_lock_guard(const legion_lock_guard&)’,AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,build,Type_Error,"binary_tree.cpp:189:38: error: no matching function for call to ‘Legion::Runtime::register_legion_task<void>(TaskIDs, Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,build,Type_Error,"binary_tree.cpp:189:38: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,build,Type_Error,"binary_tree.cpp:194:45: error: no matching function for call to ‘Legion::Runtime::register_legion_task<std::string>(TaskIDs, Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,build,Type_Error,"binary_tree.cpp:194:45: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,code_only_build,Type_Error,"binary_tree.cpp:189:38: error: no matching function for call to ‘Legion::Runtime::register_legion_task<void>(TaskIDs, Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,code_only_build,Type_Error,"binary_tree.cpp:189:38: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,code_only_build,Type_Error,"binary_tree.cpp:194:45: error: no matching function for call to ‘Legion::Runtime::register_legion_task<std::string>(TaskIDs, Realm::Processor::Kind, bool, bool)’",AsyncSTM,openai/gpt-oss-120b,Legion
+6,build,code_only_build,Type_Error,"binary_tree.cpp:194:45: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,openai/gpt-oss-120b,Legion
+18,build,build,Syntax_Error,"binary_tree.cpp:1:23: error: expected constructor, destructor, or type conversion before ‘(’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+18,build,build,Syntax_Error,binary_tree.cpp:8:69: error: expected unqualified-id before ‘)’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+18,build,build,Syntax_Error,binary_tree.cpp:9:76: error: expected unqualified-id before ‘)’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+18,build,code_only_build,Syntax_Error,"binary_tree.cpp:1:23: error: expected constructor, destructor, or type conversion before ‘(’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+18,build,code_only_build,Syntax_Error,binary_tree.cpp:8:69: error: expected unqualified-id before ‘)’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+18,build,code_only_build,Syntax_Error,binary_tree.cpp:9:76: error: expected unqualified-id before ‘)’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:94:23: error: typedef declared ‘auto’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,astm.hpp:150:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,astm.hpp:155:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:163:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:94:23: error: typedef declared ‘auto’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,astm.hpp:204:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,astm.hpp:206:48: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,astm.hpp:208:54: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,astm.hpp:210:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,"astm.hpp:275:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:276:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:276:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:94:23: error: missing template argument list after ‘std::future’; template placeholder not permitted in parameter,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,"astm.hpp:287:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,"astm.hpp:345:73: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:346:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:346:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,"astm.hpp:349:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,"astm.hpp:352:20: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,"astm.hpp:354:22: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,"astm.hpp:354:36: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,"astm.hpp:354:61: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,"astm.hpp:432:67: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:432:75: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Declaration_Or_Function_Call_Error,astm.hpp:432:81: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,"astm.hpp:433:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,astm.hpp:478:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,binary_tree.cpp:47:5: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,binary_tree.cpp:47:17: error: expected primary-expression before ‘int’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,binary_tree.cpp:70:7: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,binary_tree.cpp:82:16: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Type_Error,"binary_tree.cpp:123:38: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,build,Syntax_Error,binary_tree.cpp:126:19: error: ‘run’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:37:18: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:41:41: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:41:54: error: expected unqualified-id before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:41:53: error: expected ‘)’ before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:41:54: error: expected initializer before ‘*’ token,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:55:9: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:56:11: error: ‘LEGION_ASYNC_TASK_ID’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:57:11: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:60:11: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:60:41: error: ‘legion_async_task’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:67:5: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:27:36: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:145:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:150:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:83:36: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:83:51: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:155:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:83:36: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:83:51: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:163:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:27:36: error: ‘legion’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:202:5: error: ‘future_type’ does not name a type,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:204:37: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:83:36: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:83:51: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:206:48: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:83:36: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:83:51: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:208:54: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:83:36: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:83:51: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:210:67: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:83:36: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:83:51: error: expected primary-expression before ‘void’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:27:36: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,"astm.hpp:275:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:276:5: error: template argument 1 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:276:5: error: template argument 2 is invalid,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:27:36: error: ‘legion’ has not been declared,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:27:50: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:287:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:27:36: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,"astm.hpp:345:73: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:346:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:346:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:349:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:352:20: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:354:22: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:354:36: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:354:61: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:27:36: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,"astm.hpp:432:67: error: wrong number of template arguments (1, should be 2)",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:432:75: error: ‘fut’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:432:80: error: ‘F’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:432:81: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,"astm.hpp:433:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,astm.hpp:478:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,binary_tree.cpp:47:5: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,binary_tree.cpp:47:17: error: expected primary-expression before ‘int’,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,binary_tree.cpp:70:7: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,binary_tree.cpp:82:16: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Type_Error,"binary_tree.cpp:123:38: error: invalid conversion from ‘void (*)()’ to ‘Legion::RegistrationCallbackFnptr’ {aka ‘void (*)(Realm::Machine, Legion::Runtime*, const std::set<Realm::Processor>&)’} [-fpermissive]",AsyncSTM,openai/gpt-oss-120b,Legion
+11,build,code_only_build,Syntax_Error,binary_tree.cpp:126:19: error: ‘run’ is not a member of ‘Legion::Runtime’,AsyncSTM,openai/gpt-oss-120b,Legion

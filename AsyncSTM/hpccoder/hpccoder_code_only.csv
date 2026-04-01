@@ -1,0 +1,4 @@
+llm_name,source_model,dest_model,file_name,apps,total_samples,INCORRECT_MODEL,BUILD_FAIL,RUNTIME_FAIL,MISSING,VALIDATION_FAIL,PASS,build@1,build@3,build@5,run@1,run@3,run@5,pass@1,pass@3,pass@5
+hpcgroup/hpc-coder-v2-16b,HPX,Legion,binary_tree.txt,1,20,20,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hpcgroup/hpc-coder-v2-16b,HPX,Legion,concurrency_tests.txt,1,20,20,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hpcgroup/hpc-coder-v2-16b,HPX,Legion,unit_tests.txt,1,20,20,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

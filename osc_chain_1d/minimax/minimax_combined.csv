@@ -1,0 +1,2 @@
+llm_name,source_model,dest_model,apps,total_samples,INCORRECT_MODEL,BUILD_FAIL,RUNTIME_FAIL,MISSING,VALIDATION_FAIL,PASS,build@1,build@3,build@5,run@1,run@3,run@5,pass@1,pass@3,pass@5
+MiniMax-M2.5,HPX,Legion,1,40,0,40,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

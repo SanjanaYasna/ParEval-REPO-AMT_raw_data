@@ -1,0 +1,2 @@
+llm_name,source_model,dest_model,apps,total_samples,INCORRECT_MODEL,BUILD_FAIL,RUNTIME_FAIL,MISSING,VALIDATION_FAIL,PASS,build@1,build@3,build@5,run@1,run@3,run@5,pass@1,pass@3,pass@5
+claude-opus-4-6,MPI,HPX,1,20,0,0,0,0,3,17,1.0,1.0,1.0,1.0,1.0,1.0,0.85,0.9991228070175439,1.0

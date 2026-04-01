@@ -1,0 +1,61 @@
+output_number,phase,source,error_type,error_message,app,llm,dest_model
+14,build,build,Syntax_Error,main.cpp:71:39: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+14,build,build,Syntax_Error,main.cpp:82:39: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+14,build,build,Syntax_Error,main.cpp:93:39: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+14,build,build,Type_Error,"main.cpp:140:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+14,build,code_only_build,Syntax_Error,main.cpp:71:39: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+14,build,code_only_build,Syntax_Error,main.cpp:82:39: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+14,build,code_only_build,Syntax_Error,main.cpp:93:39: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+14,build,code_only_build,Type_Error,"main.cpp:140:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+17,build,build,Type_Error,"main.cpp:141:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+17,build,code_only_build,Type_Error,"main.cpp:141:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+19,build,build,Type_Error,"main.cpp:145:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+19,build,code_only_build,Type_Error,"main.cpp:145:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+8,build,build,Type_Error,"main.cpp:172:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+8,build,code_only_build,Type_Error,"main.cpp:172:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+13,build,build,Type_Error,octree.hpp:226:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+13,build,build,Type_Error,"main.cpp:148:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+13,build,code_only_build,Type_Error,octree.hpp:226:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+13,build,code_only_build,Type_Error,"main.cpp:148:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+16,build,build,Type_Error,"main.cpp:168:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+16,build,code_only_build,Type_Error,"main.cpp:168:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+0,build,build,Type_Error,octree.hpp:223:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+0,build,build,Type_Error,octree.hpp:239:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+0,build,build,Type_Error,octree.hpp:253:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+0,build,build,Type_Error,"main.cpp:142:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+0,build,code_only_build,Type_Error,octree.hpp:223:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+0,build,code_only_build,Type_Error,octree.hpp:239:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+0,build,code_only_build,Type_Error,octree.hpp:253:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+0,build,code_only_build,Type_Error,"main.cpp:142:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+12,build,build,Type_Error,"main.cpp:162:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+12,build,code_only_build,Type_Error,"main.cpp:162:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+2,build,build,Type_Error,"main.cpp:152:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+2,build,code_only_build,Type_Error,"main.cpp:152:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+4,build,build,Type_Error,"main.cpp:149:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+4,build,code_only_build,Type_Error,"main.cpp:149:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+7,build,build,Type_Error,octree.hpp:214:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+7,build,build,Type_Error,octree.hpp:232:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+7,build,code_only_build,Type_Error,octree.hpp:214:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+7,build,code_only_build,Type_Error,octree.hpp:232:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+6,build,build,Type_Error,octree.hpp:217:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+6,build,build,Type_Error,octree.hpp:227:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+6,build,build,Type_Error,octree.hpp:242:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+6,build,build,Type_Error,"main.cpp:141:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+6,build,code_only_build,Type_Error,octree.hpp:217:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+6,build,code_only_build,Type_Error,octree.hpp:227:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+6,build,code_only_build,Type_Error,octree.hpp:242:10: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+6,build,code_only_build,Type_Error,"main.cpp:141:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+18,build,build,Type_Error,main.cpp:72:14: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+18,build,build,Type_Error,main.cpp:84:14: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+18,build,build,Type_Error,main.cpp:96:14: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+18,build,build,Type_Error,"main.cpp:145:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+18,build,code_only_build,Type_Error,main.cpp:72:14: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+18,build,code_only_build,Type_Error,main.cpp:84:14: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+18,build,code_only_build,Type_Error,main.cpp:96:14: error: ‘hpx::experimental’ has not been declared,Barnes_Hut,claude-opus-4-6,HPX
+18,build,code_only_build,Type_Error,"main.cpp:145:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+11,build,build,Syntax_Error,main.cpp:75:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+11,build,build,Syntax_Error,main.cpp:92:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+11,build,build,Type_Error,"main.cpp:139:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX
+11,build,code_only_build,Syntax_Error,main.cpp:75:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+11,build,code_only_build,Syntax_Error,main.cpp:92:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,claude-opus-4-6,HPX
+11,build,code_only_build,Type_Error,"main.cpp:139:21: error: no matching function for call to ‘init(<unresolved overloaded function type>, int&, char**&, hpx::init_params&)’",Barnes_Hut,claude-opus-4-6,HPX

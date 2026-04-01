@@ -1,0 +1,783 @@
+output_number,phase,source,error_type,error_message,app,llm,dest_model
+14,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,MiniMax-M2.5,Legion
+14,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Declaration_Or_Function_Call_Error,astm_config.hpp:49:15: error: using typedef-name ‘Legion::Context’ after ‘class’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,astm_config.hpp:154:18: error: ‘promise’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,astm_config.hpp:154:36: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm_config.hpp:154:38: error: ‘promise’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,astm_config.hpp:155:18: error: ‘future’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,astm_config.hpp:155:35: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm_config.hpp:155:37: error: ‘fut’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,astm_config.hpp:161:25: error: ‘promise’ is not captured,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,astm_config.hpp:163:25: error: ‘promise’ is not captured,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,astm_config.hpp:166:21: error: ‘promise’ is not captured,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,166 |                     promise.set_exception(std::current_exception());,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm.hpp:169:36: error: no match for call to ‘(astm::legion_future<void>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm.hpp:174:36: error: no match for call to ‘(astm::legion_future<void>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm.hpp:223:65: error: no match for call to ‘(astm::legion_future<void>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm.hpp:225:76: error: no match for call to ‘(astm::legion_future<void>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm.hpp:227:71: error: no match for call to ‘(astm::legion_future<void>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Type_Error,astm.hpp:229:95: error: no match for call to ‘(astm::legion_future<void>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,unit_tests.cpp:197:17: error: ‘ID_AUTO’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,unit_tests.cpp:198:17: error: ‘ID_AUTO’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,unit_tests.cpp:199:17: error: ‘ID_AUTO’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+14,build,code_only_build,Syntax_Error,unit_tests.cpp:200:17: error: ‘ID_AUTO’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+9,build,build,Syntax_Error,binary_tree.cpp:116:5: error: ‘binary_tree’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+9,build,code_only_build,Syntax_Error,binary_tree.cpp:116:5: error: ‘binary_tree’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Syntax_Error,astm_config.hpp:32:39: error: ‘const class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,astm.hpp:211:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,astm.hpp:216:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,astm.hpp:265:65: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,astm.hpp:267:76: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,astm.hpp:269:71: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,astm.hpp:271:95: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Syntax_Error,astm.hpp:412:39: error: expected ‘)’ before ‘this’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:161:17: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [17]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:163:21: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [15]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:166:17: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [2]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:169:17: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [23]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:172:21: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [15]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:177:25: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [23]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:179:25: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [12]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:200:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Syntax_Error,binary_tree.cpp:213:33: error: ‘create_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"binary_tree.cpp:218:41: error: no matching function for call to ‘Legion::Runtime::register_task_variant<void>(Legion::TaskVariantRegistrar&, void (&)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*))’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,"binary_tree.cpp:218:41: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID)’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Declaration_Or_Function_Call_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:10073:17: error: forming reference to void,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,binary_tree.cpp:221:27: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Syntax_Error,binary_tree.cpp:223:14: error: ‘destroy_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,build,Type_Error,astm.hpp:101:33: error: no match for call to ‘(const std::function<void(astm::transaction*)>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Syntax_Error,astm_config.hpp:32:39: error: ‘const class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,astm.hpp:211:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,astm.hpp:216:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,astm.hpp:265:65: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,astm.hpp:267:76: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,astm.hpp:269:71: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,astm.hpp:271:95: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Syntax_Error,astm.hpp:412:39: error: expected ‘)’ before ‘this’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:161:17: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [17]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:163:21: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [15]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:166:17: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [2]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:169:17: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [23]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:172:21: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [15]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:177:25: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [23]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:179:25: error: no match for ‘operator<<’ (operand types are ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} and ‘const char [12]’),AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"/gridapps/software/GCCcore/13.3.0/include/c++/13.3.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:200:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Syntax_Error,binary_tree.cpp:213:33: error: ‘create_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"binary_tree.cpp:218:41: error: no matching function for call to ‘Legion::Runtime::register_task_variant<void>(Legion::TaskVariantRegistrar&, void (&)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*))’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,"binary_tree.cpp:218:41: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> Legion::VariantID Legion::Runtime::register_task_variant(const Legion::TaskVariantRegistrar&, Legion::VariantID)’",AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Declaration_Or_Function_Call_Error,/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:10073:17: error: forming reference to void,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,binary_tree.cpp:221:27: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Syntax_Error,binary_tree.cpp:223:14: error: ‘destroy_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+17,build,code_only_build,Type_Error,astm.hpp:101:33: error: no match for call to ‘(const std::function<void(astm::transaction*)>) ()’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:53:21: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:53:36: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:54:54: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:55:26: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:55:41: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Type_Error,"binary_tree.cpp:58:45: error: wrong number of template arguments (2, should be at least 3)",AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Type_Error,binary_tree.cpp:58:68: error: ‘FID’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Declaration_Or_Function_Call_Error,binary_tree.cpp:58:74: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:102:21: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:102:36: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:103:26: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:103:41: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:106:35: error: ‘const class Legion::Task’ has no member named ‘local_arg’; did you mean ‘local_args’?,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:168:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Type_Error,binary_tree.cpp:168:28: error: ‘ArgumentInt’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:169:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Type_Error,binary_tree.cpp:169:28: error: ‘ArgumentBytes’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:170:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:172:25: error: ‘struct Legion::TaskLauncher’ has no member named ‘arg_map’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:176:11: error: ‘class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:191:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Type_Error,binary_tree.cpp:191:28: error: ‘ArgumentInt’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:192:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:193:25: error: ‘struct Legion::TaskLauncher’ has no member named ‘arg_map’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:197:25: error: ‘struct Legion::TaskLauncher’ has no member named ‘local_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,build,Syntax_Error,binary_tree.cpp:201:11: error: ‘class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:53:21: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:53:36: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:54:54: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:55:26: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:55:41: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Type_Error,"binary_tree.cpp:58:45: error: wrong number of template arguments (2, should be at least 3)",AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Type_Error,binary_tree.cpp:58:68: error: ‘FID’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Declaration_Or_Function_Call_Error,binary_tree.cpp:58:74: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:102:21: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:102:36: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:103:26: error: ‘const class Legion::Task’ has no member named ‘arg_list’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:103:41: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:106:35: error: ‘const class Legion::Task’ has no member named ‘local_arg’; did you mean ‘local_args’?,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:168:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Type_Error,binary_tree.cpp:168:28: error: ‘ArgumentInt’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:169:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Type_Error,binary_tree.cpp:169:28: error: ‘ArgumentBytes’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:170:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:172:25: error: ‘struct Legion::TaskLauncher’ has no member named ‘arg_map’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:176:11: error: ‘class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:191:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Type_Error,binary_tree.cpp:191:28: error: ‘ArgumentInt’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:192:17: error: ‘class Legion::ArgumentMap’ has no member named ‘set_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:193:25: error: ‘struct Legion::TaskLauncher’ has no member named ‘arg_map’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:197:25: error: ‘struct Legion::TaskLauncher’ has no member named ‘local_arg’,AsyncSTM,MiniMax-M2.5,Legion
+19,build,code_only_build,Syntax_Error,binary_tree.cpp:201:11: error: ‘class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+8,build,build,Syntax_Error,astm.hpp:90:18: error: ‘astm::transaction_future::future_type’ {aka ‘class Legion::Future’} has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+8,build,build,Type_Error,binary_tree.cpp:134:38: error: invalid conversion from ‘int’ to ‘Legion::Runtime*’ [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+8,build,build,Syntax_Error,binary_tree.cpp:144:18: error: ‘stop’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+8,build,build,Syntax_Error,binary_tree.cpp:201:14: error: ‘stop’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+8,build,code_only_build,Syntax_Error,astm_config.hpp:31:24: error: ‘const class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+8,build,code_only_build,Syntax_Error,astm.hpp:90:18: error: ‘astm::transaction_future::future_type’ {aka ‘class Legion::Future’} has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+8,build,code_only_build,Type_Error,binary_tree.cpp:134:38: error: invalid conversion from ‘int’ to ‘Legion::Runtime*’ [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+8,build,code_only_build,Syntax_Error,binary_tree.cpp:144:18: error: ‘stop’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+8,build,code_only_build,Syntax_Error,binary_tree.cpp:201:14: error: ‘stop’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,astm.hpp:81:57: error: ‘Legion::TaskIDAllocator’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:82:26: error: ‘register_task_callback’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:101:28: error: ‘const class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,astm.hpp:113:57: error: ‘Legion::TaskIDAllocator’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:115:18: error: ‘struct Legion::TaskLauncher’ has no member named ‘add_arg’,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,"astm.hpp:117:57: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::TaskLauncher&, Legion::Internal::TaskContext*&)’",AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,astm.hpp:141:53: error: ‘Legion::TaskIDAllocator’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,"astm.hpp:142:73: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID&, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:143:14: error: ‘struct Legion::TaskLauncher’ has no member named ‘add_arg’,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,"astm.hpp:144:49: error: no matching function for call to ‘Legion::Runtime::execute_task(Legion::TaskLauncher&, Legion::Internal::TaskContext*&)’",AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:156:31: error: ‘astm::LegionFuture<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:156:31: error: ‘astm::LegionFuture<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:156:31: error: ‘astm::LegionFuture<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:156:31: error: ‘astm::LegionFuture<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:156:31: error: ‘astm::LegionFuture<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,astm.hpp:417:74: error: no match for ‘operator=’ (operand types are ‘astm::LegionFuture<void>’ and ‘void’),AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,astm.hpp:156:31: error: ‘astm::LegionFuture<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,binary_tree.cpp:39:5: error: ‘binary_tree’ was not declared in this scope; did you mean ‘binary_tree_task’?,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Syntax_Error,binary_tree.cpp:39:17: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,binary_tree.cpp:62:9: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,binary_tree.cpp:71:18: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,binary_tree.cpp:94:52: error: no matching function for call to ‘Legion::Runtime::register_legion_task<binary_tree_task>(<unnamed enum>)’,AsyncSTM,MiniMax-M2.5,Legion
+20,build,code_only_build,Type_Error,"astm.hpp:114:30: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID&, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+13,build,build,Type_Error,binary_tree.cpp:206:47: error: converting to ‘bool’ from ‘std::nullptr_t’ requires direct-initialization [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+13,build,code_only_build,Type_Error,binary_tree.cpp:206:47: error: converting to ‘bool’ from ‘std::nullptr_t’ requires direct-initialization [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,astm.hpp:77:18: error: ‘astm::transaction_future::future_type’ {aka ‘class Legion::Future’} has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,"astm.hpp:128:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,astm.hpp:137:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,astm.hpp:139:50: error: ‘READ_WRITE’ is not a member of ‘Legion’; did you mean ‘READ_WRITE’?,AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,astm.hpp:139:70: error: ‘EXCLUSIVE’ is not a member of ‘Legion’; did you mean ‘EXCLUSIVE’?,AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,"astm.hpp:149:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,astm.hpp:157:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,"astm.hpp:169:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,astm.hpp:176:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,"astm.hpp:185:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,astm.hpp:192:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,"astm.hpp:295:21: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,build,Syntax_Error,"binary_tree.cpp:187:12: error: expected constructor, destructor, or type conversion before ‘(’ token",AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Type_Error,astm_config.hpp:58:50: error: no matching function for call to ‘std::promise<astm::detail::empty_void>::set_value()’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:77:18: error: ‘astm::transaction_future::future_type’ {aka ‘class Legion::Future’} has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,"astm.hpp:128:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:137:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:139:50: error: ‘READ_WRITE’ is not a member of ‘Legion’; did you mean ‘READ_WRITE’?,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:139:70: error: ‘EXCLUSIVE’ is not a member of ‘Legion’; did you mean ‘EXCLUSIVE’?,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,"astm.hpp:149:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:157:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,"astm.hpp:169:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:176:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,"astm.hpp:185:27: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,astm.hpp:192:13: error: ‘class Legion::Runtime’ has no member named ‘allocate_field’,AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,"astm.hpp:295:21: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+1,build,code_only_build,Syntax_Error,"binary_tree.cpp:187:12: error: expected constructor, destructor, or type conversion before ‘(’ token",AsyncSTM,MiniMax-M2.5,Legion
+10,build,build,Syntax_Error,binary_tree.cpp:206:22: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+10,build,code_only_build,Syntax_Error,binary_tree.cpp:206:22: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Declaration_Or_Function_Call_Error,binary_tree.cpp:50:18: error: ‘future’ in namespace ‘std’ does not name a template type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:54:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:59:9: error: class ‘transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:59:19: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:59:30: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:64:9: error: class ‘transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:64:19: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:64:30: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:72:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:91:18: error: ‘future’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,"binary_tree.cpp:91:29: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:93:9: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:94:5: error: expected unqualified-id before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:190:15: error: ‘std::future’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,"binary_tree.cpp:190:26: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:105:9: error: ‘async_list’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:140:25: error: ‘async_list’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:143:22: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:143:33: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:192:24: error: ‘future’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,"binary_tree.cpp:192:35: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,"binary_tree.cpp:192:37: error: expected unqualified-id before ‘,’ token",AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Declaration_Or_Function_Call_Error,binary_tree.cpp:192:71: error: invalid declarator before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:193:9: error: ‘async_list’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:193:30: error: ‘entry’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Declaration_Or_Function_Call_Error,binary_tree.cpp:200:18: error: ‘future’ in namespace ‘std’ does not name a template type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:231:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:233:37: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:233:48: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:233:59: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:235:48: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:235:59: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:235:70: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:237:43: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:237:54: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:237:65: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:239:67: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:239:78: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:239:89: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:321:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:435:44: error: ‘Argument’ is not a member of ‘Legion’; did you mean ‘ArgumentMap’?,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:435:52: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:435:52: error: template argument 2 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:498:33: error: ‘create_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,"binary_tree.cpp:504:37: error: no matching function for call to ‘Legion::Runtime::execute_task(void (&)(const int&, std::vector<Legion::PhysicalRegion>&), Legion::TaskLauncher&)’",AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Type_Error,binary_tree.cpp:507:10: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,build,Syntax_Error,binary_tree.cpp:509:14: error: ‘destroy_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Declaration_Or_Function_Call_Error,binary_tree.cpp:50:18: error: ‘future’ in namespace ‘std’ does not name a template type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:54:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:59:9: error: class ‘transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:59:19: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:59:30: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:64:9: error: class ‘transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:64:19: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:64:30: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:72:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:91:18: error: ‘future’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,"binary_tree.cpp:91:29: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:93:9: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:94:5: error: expected unqualified-id before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:190:15: error: ‘std::future’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,"binary_tree.cpp:190:26: error: expected ‘,’ or ‘...’ before ‘<’ token",AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:105:9: error: ‘async_list’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:140:25: error: ‘async_list’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:143:22: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:143:33: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:192:24: error: ‘future’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,"binary_tree.cpp:192:35: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,"binary_tree.cpp:192:37: error: expected unqualified-id before ‘,’ token",AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Declaration_Or_Function_Call_Error,binary_tree.cpp:192:71: error: invalid declarator before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:193:9: error: ‘async_list’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:193:30: error: ‘entry’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Declaration_Or_Function_Call_Error,binary_tree.cpp:200:18: error: ‘future’ in namespace ‘std’ does not name a template type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:231:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:233:37: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:233:48: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:233:59: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:235:48: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:235:59: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:235:70: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:237:43: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:237:54: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:237:65: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:239:67: error: class ‘shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:239:78: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:239:89: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:321:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:435:44: error: ‘Argument’ is not a member of ‘Legion’; did you mean ‘ArgumentMap’?,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:435:52: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:435:52: error: template argument 2 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:498:33: error: ‘create_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,"binary_tree.cpp:504:37: error: no matching function for call to ‘Legion::Runtime::execute_task(void (&)(const int&, std::vector<Legion::PhysicalRegion>&), Legion::TaskLauncher&)’",AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Type_Error,binary_tree.cpp:507:10: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,MiniMax-M2.5,Legion
+12,build,code_only_build,Syntax_Error,binary_tree.cpp:509:14: error: ‘destroy_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,astm_config.hpp:34:28: error: ‘const class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,astm.hpp:130:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,astm.hpp:135:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,astm.hpp:184:65: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,astm.hpp:186:76: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,astm.hpp:188:71: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,astm.hpp:190:95: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,astm.hpp:421:42: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,binary_tree.cpp:44:9: error: ‘binary_tree’ was not declared in this scope; did you mean ‘binary_tree_task’?,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,binary_tree.cpp:44:21: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,binary_tree.cpp:66:13: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Type_Error,binary_tree.cpp:76:22: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+3,build,build,Syntax_Error,binary_tree.cpp:104:22: error: ‘register_top_level_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,astm_config.hpp:34:28: error: ‘const class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,astm.hpp:130:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,astm.hpp:135:36: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,astm.hpp:184:65: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,astm.hpp:186:76: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,astm.hpp:188:71: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,astm.hpp:190:95: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,astm.hpp:77:21: error: ‘astm::legion_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,astm.hpp:421:42: error: no match for call to ‘(astm::legion_future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,binary_tree.cpp:44:9: error: ‘binary_tree’ was not declared in this scope; did you mean ‘binary_tree_task’?,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,binary_tree.cpp:44:21: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,binary_tree.cpp:66:13: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Type_Error,binary_tree.cpp:76:22: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+3,build,code_only_build,Syntax_Error,binary_tree.cpp:104:22: error: ‘register_top_level_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm_config.hpp:44:19: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:82:14: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:82:25: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:108:52: error: ‘class Legion::Runtime’ has no member named ‘create_future_from_value’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:158:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:163:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:171:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:212:65: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:214:76: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:216:71: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Type_Error,astm.hpp:218:95: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:361:43: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,build,Syntax_Error,binary_tree.cpp:189:22: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm_config.hpp:44:19: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:82:14: error: ‘async’ is not a member of ‘std’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:82:25: error: ‘std::launch’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:108:52: error: ‘class Legion::Runtime’ has no member named ‘create_future_from_value’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:158:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:163:36: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:171:17: error: no matching function for call to ‘Legion::Future::get()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:212:65: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:214:76: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:216:71: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Type_Error,astm.hpp:218:95: error: no match for call to ‘(Legion::Future) ()’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:361:43: error: ‘class Legion::Future’ has no member named ‘then’,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,astm.hpp:63:21: error: ‘Legion::Future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+2,build,code_only_build,Syntax_Error,binary_tree.cpp:189:22: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Syntax_Error,astm_config.hpp:37:33: error: ‘class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm_config.hpp:70:67: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(int, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm.hpp:62:40: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm.hpp:67:40: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Syntax_Error,"astm.hpp:124:46: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Syntax_Error,"astm.hpp:130:58: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Syntax_Error,"astm.hpp:136:53: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm.hpp:127:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm.hpp:133:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm.hpp:139:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm.hpp:144:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Syntax_Error,astm.hpp:206:45: error: ‘create_reservation’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Syntax_Error,"astm.hpp:244:47: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,"astm.hpp:330:55: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Declaration_Or_Function_Call_Error,astm.hpp:451:6: error: no declaration matches ‘void astm::shared_var<T>::local_var::then(F)’,AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,binary_tree.cpp:139:42: error: ‘Legion::ResultID’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+4,build,build,Type_Error,binary_tree.cpp:142:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Syntax_Error,astm_config.hpp:37:33: error: ‘class Legion::Future’ has no member named ‘get_void’,AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm_config.hpp:70:67: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(int, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:62:40: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:67:40: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:124:46: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:130:58: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:136:53: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:127:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:133:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:139:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:144:41: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Syntax_Error,astm.hpp:206:45: error: ‘create_reservation’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Syntax_Error,"astm.hpp:244:47: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,"astm.hpp:330:55: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Internal::TaskContext*&, std::nullptr_t)’",AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:451:6: error: no declaration matches ‘void astm::shared_var<T>::local_var::then(F)’,AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,binary_tree.cpp:139:42: error: ‘Legion::ResultID’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+4,build,code_only_build,Type_Error,binary_tree.cpp:142:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+7,build,build,Syntax_Error,astm_config.hpp:13:14: fatal error: Legion.h: No such file or directory,AsyncSTM,MiniMax-M2.5,Legion
+7,build,code_only_build,Syntax_Error,astm_config.hpp:13:14: fatal error: Legion.h: No such file or directory,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Type_Error,astm.hpp:43:24: error: cannot convert ‘const Legion::Future*’ to ‘Legion::Future*’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:66:48: error: ‘generate_unique_task_id’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:67:30: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:70:25: error: ‘TaskSignature’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Type_Error,"astm.hpp:75:77: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID&, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:76:46: error: ‘class Legion::Runtime’ has no member named ‘execute’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,"astm.hpp:76:62: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,build,Type_Error,binary_tree.cpp:136:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Type_Error,astm.hpp:43:24: error: cannot convert ‘const Legion::Future*’ to ‘Legion::Future*’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:66:48: error: ‘generate_unique_task_id’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:67:30: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:70:25: error: ‘TaskSignature’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Type_Error,"astm.hpp:75:77: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID&, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:76:46: error: ‘class Legion::Runtime’ has no member named ‘execute’,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,"astm.hpp:76:62: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+15,build,code_only_build,Type_Error,binary_tree.cpp:136:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Type_Error,astm.hpp:43:24: error: cannot convert ‘const Legion::Future*’ to ‘Legion::Future*’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:66:48: error: ‘generate_unique_task_id’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:67:30: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:70:25: error: ‘TaskSignature’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Type_Error,"astm.hpp:75:77: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID&, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:76:46: error: ‘class Legion::Runtime’ has no member named ‘execute’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,"astm.hpp:76:62: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,build,Type_Error,binary_tree.cpp:136:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Type_Error,astm.hpp:43:24: error: cannot convert ‘const Legion::Future*’ to ‘Legion::Future*’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:66:48: error: ‘generate_unique_task_id’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:67:30: error: ‘register_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:70:25: error: ‘TaskSignature’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Type_Error,"astm.hpp:75:77: error: no matching function for call to ‘Legion::TaskLauncher::TaskLauncher(Legion::TaskID&, Legion::ArgumentMap)’",AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:76:46: error: ‘class Legion::Runtime’ has no member named ‘execute’,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,"astm.hpp:76:62: error: ‘Legion::Context’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Syntax_Error,astm.hpp:103:31: error: ‘astm::astm_future’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+16,build,code_only_build,Type_Error,binary_tree.cpp:136:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:35:47: error: ‘MEMORY_FLAGS_DISTRIBUTED_ALLOC’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:37:15: error: ‘class Legion::FieldConstraint’ has no member named ‘add_constraint’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:37:52: error: ‘REDUCTION_NONE’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:55:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:55:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:55:63: error: ‘tree_accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,"binary_tree.cpp:56:24: error: ‘const __gnu_cxx::__alloc_traits<std::allocator<Legion::PhysicalRegion>, Legion::PhysicalRegion>::value_type’ {aka ‘const class Legion::PhysicalRegion’} has no member named ‘get_field_accessor’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:56:43: error: ‘FIELD_KEY_VALUE’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:56:76: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:56:78: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:86:42: error: ‘class Legion::Runtime’ has no member named ‘get_local_spacePointer’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:99:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:99:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:99:63: error: ‘tree_accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,"binary_tree.cpp:100:24: error: ‘const __gnu_cxx::__alloc_traits<std::allocator<Legion::PhysicalRegion>, Legion::PhysicalRegion>::value_type’ {aka ‘const class Legion::PhysicalRegion’} has no member named ‘get_field_accessor’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:100:43: error: ‘FIELD_KEY_VALUE’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:100:76: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:100:78: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:128:17: error: ‘FieldSpaceCreator’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:129:23: error: ‘fsc’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:157:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:157:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:157:63: error: ‘accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:158:22: error: ‘class Legion::Runtime’ has no member named ‘get_logical_region’; did you mean ‘get_logical_subregion’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:160:30: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:160:32: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:176:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:176:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:176:63: error: ‘accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:177:22: error: ‘class Legion::Runtime’ has no member named ‘get_logical_region’; did you mean ‘get_logical_subregion’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:179:30: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:179:32: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:197:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:197:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:197:63: error: ‘accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:198:22: error: ‘class Legion::Runtime’ has no member named ‘get_logical_region’; did you mean ‘get_logical_subregion’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:200:30: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:200:32: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,"binary_tree.cpp:275:54: error: no matching function for call to ‘Legion::Runtime::register_legion_task<BinaryTree>(int, Realm::Processor::Kind, bool, const char [15])’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,"binary_tree.cpp:275:54: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:286:33: error: ‘create_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:287:28: error: ‘class Legion::Runtime’ has no member named ‘create_context’; did you mean ‘get_context’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Type_Error,binary_tree.cpp:290:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+5,build,build,Syntax_Error,binary_tree.cpp:354:14: error: ‘destroy_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:35:47: error: ‘MEMORY_FLAGS_DISTRIBUTED_ALLOC’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:37:15: error: ‘class Legion::FieldConstraint’ has no member named ‘add_constraint’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:37:52: error: ‘REDUCTION_NONE’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:55:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:55:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:55:63: error: ‘tree_accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,"binary_tree.cpp:56:24: error: ‘const __gnu_cxx::__alloc_traits<std::allocator<Legion::PhysicalRegion>, Legion::PhysicalRegion>::value_type’ {aka ‘const class Legion::PhysicalRegion’} has no member named ‘get_field_accessor’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:56:43: error: ‘FIELD_KEY_VALUE’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:56:76: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:56:78: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:86:42: error: ‘class Legion::Runtime’ has no member named ‘get_local_spacePointer’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:99:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:99:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:99:63: error: ‘tree_accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,"binary_tree.cpp:100:24: error: ‘const __gnu_cxx::__alloc_traits<std::allocator<Legion::PhysicalRegion>, Legion::PhysicalRegion>::value_type’ {aka ‘const class Legion::PhysicalRegion’} has no member named ‘get_field_accessor’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:100:43: error: ‘FIELD_KEY_VALUE’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:100:76: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:100:78: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:128:17: error: ‘FieldSpaceCreator’ is not a member of ‘Legion’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:129:23: error: ‘fsc’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:157:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:157:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:157:63: error: ‘accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:158:22: error: ‘class Legion::Runtime’ has no member named ‘get_logical_region’; did you mean ‘get_logical_subregion’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:160:30: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:160:32: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:176:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:176:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:176:63: error: ‘accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:177:22: error: ‘class Legion::Runtime’ has no member named ‘get_logical_region’; did you mean ‘get_logical_subregion’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:179:30: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:179:32: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:197:17: error: ‘RegionAccessor’ is not a member of ‘Legion’; did you mean ‘ReductionAccessor’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:197:40: error: ‘Legion::AccessorType’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:197:63: error: ‘accessor’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:198:22: error: ‘class Legion::Runtime’ has no member named ‘get_logical_region’; did you mean ‘get_logical_subregion’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:200:30: error: expected primary-expression before ‘>’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:200:32: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,"binary_tree.cpp:275:54: error: no matching function for call to ‘Legion::Runtime::register_legion_task<BinaryTree>(int, Realm::Processor::Kind, bool, const char [15])’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,"binary_tree.cpp:275:54: error: type/value mismatch at argument 1 in template parameter list for ‘template<void (* TASK_PTR)(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)> static Legion::TaskID Legion::Runtime::register_legion_task(Legion::TaskID, Realm::Processor::Kind, bool, bool, Legion::VariantID, Legion::TaskConfigOptions, const char*)’",AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:286:33: error: ‘create_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:287:28: error: ‘class Legion::Runtime’ has no member named ‘create_context’; did you mean ‘get_context’?,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Type_Error,binary_tree.cpp:290:26: error: variable ‘std::ofstream outfile’ has initializer but incomplete type,AsyncSTM,MiniMax-M2.5,Legion
+5,build,code_only_build,Syntax_Error,binary_tree.cpp:354:14: error: ‘destroy_runtime’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:44:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:51:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:52:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:72:13: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,"astm.hpp:75:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:76:5: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:76:5: error: template argument 2 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:84:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:85:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:87:17: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:87:32: error: expected ‘)’ before ‘*’ token,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:273:15: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:273:29: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:95:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:111:19: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:111:38: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:111:38: error: template argument 2 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:119:19: error: request for member ‘push_back’ in ‘locks’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:119:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’; did you mean ‘unlock’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:123:26: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:123:26: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:124:37: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:139:34: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:139:34: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:140:33: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,"astm.hpp:160:76: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:161:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:161:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:164:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:168:21: error: ‘runtime’ was not declared in this scope; did you mean ‘time’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:171:21: error: ‘legion’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:174:24: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:178:24: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:185:20: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:191:26: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:191:26: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:192:25: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:275:19: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,"astm.hpp:275:70: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:275:78: error: ‘fut’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:275:83: error: ‘F’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Declaration_Or_Function_Call_Error,astm.hpp:275:84: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:276:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:282:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:286:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:308:21: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:308:36: error: expected ‘,’ or ‘...’ before ‘f’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:291:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:291:14: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:291:48: error: ‘struct astm::transaction’ has no member named ‘runtime’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:291:64: error: ‘struct astm::transaction’ has no member named ‘ctx’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:296:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:296:14: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:296:47: error: ‘struct astm::transaction’ has no member named ‘runtime’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:296:62: error: ‘struct astm::transaction’ has no member named ‘ctx’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:305:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:310:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:310:16: error: ‘f’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:318:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:346:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:347:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:348:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:349:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:352:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:354:16: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:354:31: error: expected ‘)’ before ‘*’ token,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:363:28: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:363:43: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:371:23: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,"astm.hpp:371:38: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:395:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:396:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:424:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:364:19: error: class ‘astm::shared_var<T>’ does not have any field named ‘runtime_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:364:28: error: ‘rt’ was not declared in this scope; did you mean ‘t’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:364:33: error: class ‘astm::shared_var<T>’ does not have any field named ‘ctx_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:364:38: error: ‘c’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:364:42: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:364:48: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:367:13: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:372:19: error: class ‘astm::shared_var<T>’ does not have any field named ‘runtime_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:372:28: error: ‘rt’ was not declared in this scope; did you mean ‘t’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:372:33: error: class ‘astm::shared_var<T>’ does not have any field named ‘ctx_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:372:38: error: ‘c’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:372:42: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:372:48: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:375:13: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:380:27: error: class ‘astm::shared_var<T>’ does not have any field named ‘runtime_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:380:51: error: class ‘astm::shared_var<T>’ does not have any field named ‘ctx_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,astm.hpp:381:9: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:381:15: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:384:13: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:384:60: error: ‘ctx_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:389:13: error: ‘runtime_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:389:36: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:390:42: error: ‘ctx_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Declaration_Or_Function_Call_Error,"astm.hpp:401:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:402:38: error: ‘runtime_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:402:48: error: ‘ctx_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:489:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,astm.hpp:493:8: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,binary_tree.cpp:40:9: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,binary_tree.cpp:40:21: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,binary_tree.cpp:62:13: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Type_Error,binary_tree.cpp:72:22: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,binary_tree.cpp:96:14: error: ‘register_top_level_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,build,Syntax_Error,binary_tree.cpp:96:54: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:44:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:51:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:52:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:72:13: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,"astm.hpp:75:9: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:76:5: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:76:5: error: template argument 2 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:84:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:85:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:87:17: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:87:32: error: expected ‘)’ before ‘*’ token,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:273:15: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:273:29: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:95:20: error: request for member ‘clear’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:111:19: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:111:38: error: template argument 1 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:111:38: error: template argument 2 is invalid,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:119:19: error: request for member ‘push_back’ in ‘locks’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:119:42: error: ‘struct astm::shared_var_base’ has no member named ‘lock’; did you mean ‘unlock’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:123:26: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:123:26: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:124:37: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:139:34: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:139:34: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:140:33: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,"astm.hpp:160:76: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:161:15: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:161:15: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:164:20: error: request for member ‘first’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:168:21: error: ‘runtime’ was not declared in this scope; did you mean ‘time’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:171:21: error: ‘legion’ is not a class, namespace, or enumeration",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:174:24: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:178:24: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:185:20: error: request for member ‘second’ in ‘op’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:191:26: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:191:26: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:192:25: error: ‘ctx’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:275:19: error: ‘legion’ was not declared in this scope; did you mean ‘Legion’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,"astm.hpp:275:70: error: wrong number of template arguments (1, should be 2)",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:275:78: error: ‘fut’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:275:83: error: ‘F’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Declaration_Or_Function_Call_Error,astm.hpp:275:84: error: expression list treated as compound expression in initializer [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:276:20: error: request for member ‘push_back’ in ‘((astm::transaction*)this)->astm::transaction::async_list’, which is of non-class type ‘int’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:282:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:286:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:308:21: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:308:36: error: expected ‘,’ or ‘...’ before ‘f’",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:291:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:291:14: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:291:48: error: ‘struct astm::transaction’ has no member named ‘runtime’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:291:64: error: ‘struct astm::transaction’ has no member named ‘ctx’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:296:9: error: class ‘astm::transaction_future’ does not have any field named ‘fut_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:296:14: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:296:47: error: ‘struct astm::transaction’ has no member named ‘runtime’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:296:62: error: ‘struct astm::transaction’ has no member named ‘ctx’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:305:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:310:9: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:310:16: error: ‘f’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:318:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:346:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:347:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:348:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:349:13: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:352:5: error: ‘future_type’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:354:16: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:354:31: error: expected ‘)’ before ‘*’ token,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:363:28: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:363:43: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:371:23: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,"astm.hpp:371:38: error: expected ‘,’ or ‘...’ before ‘*’ token",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:395:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:396:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:424:5: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:364:19: error: class ‘astm::shared_var<T>’ does not have any field named ‘runtime_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:364:28: error: ‘rt’ was not declared in this scope; did you mean ‘t’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:364:33: error: class ‘astm::shared_var<T>’ does not have any field named ‘ctx_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:364:38: error: ‘c’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:364:42: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:364:48: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:367:13: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:372:19: error: class ‘astm::shared_var<T>’ does not have any field named ‘runtime_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:372:28: error: ‘rt’ was not declared in this scope; did you mean ‘t’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:372:33: error: class ‘astm::shared_var<T>’ does not have any field named ‘ctx_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:372:38: error: ‘c’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:372:42: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:372:48: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:375:13: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:380:27: error: class ‘astm::shared_var<T>’ does not have any field named ‘runtime_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:380:51: error: class ‘astm::shared_var<T>’ does not have any field named ‘ctx_’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,astm.hpp:381:9: error: class ‘astm::shared_var<T>’ does not have any field named ‘queue’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:381:15: error: ‘legion’ has not been declared,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:384:13: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:384:60: error: ‘ctx_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:389:13: error: ‘runtime_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:389:36: error: ‘reservation_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:390:42: error: ‘ctx_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Declaration_Or_Function_Call_Error,"astm.hpp:401:18: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]",AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:402:38: error: ‘runtime_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:402:48: error: ‘ctx_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:489:19: error: ‘fut_’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,astm.hpp:493:8: error: ‘legion’ does not name a type,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,binary_tree.cpp:40:9: error: ‘binary_tree’ was not declared in this scope,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,binary_tree.cpp:40:21: error: expected primary-expression before ‘int’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,binary_tree.cpp:62:13: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Type_Error,binary_tree.cpp:72:22: error: ‘tree’ was not declared in this scope; did you mean ‘free’?,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,binary_tree.cpp:96:14: error: ‘register_top_level_task’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion
+6,build,code_only_build,Syntax_Error,binary_tree.cpp:96:54: error: expected primary-expression before ‘)’ token,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,astm.hpp:104:31: error: ‘astm::future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,astm.hpp:104:31: error: ‘astm::future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,astm.hpp:104:31: error: ‘astm::future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,astm.hpp:104:31: error: ‘astm::future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,astm.hpp:104:31: error: ‘astm::future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,astm.hpp:104:31: error: ‘astm::future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Type_Error,binary_tree.cpp:133:54: error: invalid conversion from ‘int’ to ‘Legion::Runtime*’ [-fpermissive],AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,binary_tree.cpp:141:18: error: ‘class Legion::Runtime’ has no member named ‘wait_shutdown’; did you mean ‘wait_for_shutdown’?,AsyncSTM,MiniMax-M2.5,Legion
+18,build,code_only_build,Syntax_Error,binary_tree.cpp:199:14: error: ‘class Legion::Runtime’ has no member named ‘wait_shutdown’; did you mean ‘wait_for_shutdown’?,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Type_Error,"astm_config.hpp:52:42: error: no matching function for call to ‘Legion::Future::from_value(Legion::Runtime*&, Legion::Context, int)’",AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Type_Error,astm.hpp:57:38: error: cannot convert ‘const Legion::Future*’ to ‘Legion::Future*’,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:99:40: error: ‘astm::legion_future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:99:40: error: ‘astm::legion_future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:99:40: error: ‘astm::legion_future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:99:40: error: ‘astm::legion_future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:99:40: error: ‘astm::legion_future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Syntax_Error,astm.hpp:99:40: error: ‘astm::legion_future_wrapper<void>’ is not a template,AsyncSTM,MiniMax-M2.5,Legion
+11,build,code_only_build,Syntax_Error,unit_tests.cpp:167:22: error: ‘shutdown’ is not a member of ‘Legion::Runtime’,AsyncSTM,MiniMax-M2.5,Legion

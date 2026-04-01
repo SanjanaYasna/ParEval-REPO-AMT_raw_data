@@ -1,0 +1,1182 @@
+[
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 14,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-14/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (2.0s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp3ip0u_q_/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 10.072,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      10.081,
+      8.641,
+      9.859,
+      10.737,
+      10.725,
+      15.993,
+      24.795
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 9,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-9/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.0s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp_53rm272/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 10.82,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      10.534,
+      12.444,
+      14.439,
+      14.328,
+      14.42,
+      17.302,
+      33.867
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 17,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-17/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpc05x333p/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpc05x333p/odeint.cpp: In function \u2018void update_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpc05x333p/odeint.cpp:236:20: error: no match for \u2018operator+=\u2019 (operand types are \u2018Legion::ArraySyntax::AccessorRefHelper<double, LEGION_READ_WRITE>\u2019 and \u2018double\u2019)\n  236 |         x_acc[*it] += alpha * y_acc[*it];\n      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 19,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-19/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpywe9k9sa/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 10.232,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      9.699,
+      10.832,
+      13.184,
+      13.025,
+      13.453,
+      16.538,
+      31.12
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 8,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-8/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp72ynv0qs/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 10.915,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      11.266,
+      12.166,
+      14.947,
+      13.807,
+      14.521,
+      17.76,
+      35.539
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 13,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-13/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnui0j8zc/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnui0j8zc/odeint.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnui0j8zc/odeint.cpp:243:5: error: \u2018DomainPointColoring\u2019 was not declared in this scope\n  243 |     DomainPointColoring ghost_coloring;\n      |     ^~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnui0j8zc/odeint.cpp:247:9: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  247 |         ghost_coloring[DomainPoint(Point<1>(i))] = Domain(Rect<1>(lo, hi));\n      |         ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnui0j8zc/odeint.cpp:249:40: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  249 |     IndexPartition ghost_ip = runtime->create_index_partition(\n      |                                        ^~~~~~~~~~~~~~~~~~~~~~\n      |                                        get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnui0j8zc/odeint.cpp:250:28: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  250 |         ctx, is, color_is, ghost_coloring, ALIASED_KIND);\n      |                            ^~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 16,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-16/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpffmpn0x1/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 9.614,
+    "code_only_all_outputs_match": true,
+    "code_only_overall_status": {
+      "odeint.txt": "PASS"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      9.597,
+      9.436,
+      10.96,
+      11.449,
+      12.057,
+      16.397,
+      28.166
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 0,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-0/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/odeint.cpp:15:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp: In function \u2018void launch_osc_chain_tasks(state_type&, state_type&, Legion::Context, Legion::Runtime*, std::vector<Legion::Future>*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:165:39: error: \u2018struct state_type\u2019 has no member named \u2018num_partitions\u2019\n  165 |     const int M = static_cast<int>( q.num_partitions );\n      |                                       ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:171:71: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  171 |         LogicalRegion q0 = runtime->get_logical_subregion_by_color( q.lp , 0 );\n      |                                                                       ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:172:71: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  172 |         LogicalRegion q1 = runtime->get_logical_subregion_by_color( q.lp , 1 );\n      |                                                                       ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:173:74: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  173 |         LogicalRegion d0 = runtime->get_logical_subregion_by_color( dpdt.lp , 0 );\n      |                                                                          ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:176:63: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  176 |             RegionRequirement( q0 , READ_ONLY , EXCLUSIVE , q.lr ) );\n      |                                                               ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:180:63: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  180 |             RegionRequirement( q1 , READ_ONLY , EXCLUSIVE , q.lr ) );\n      |                                                               ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:184:70: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  184 |             RegionRequirement( d0 , WRITE_DISCARD , EXCLUSIVE , dpdt.lr ) );\n      |                                                                      ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:196:76: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  196 |         LogicalRegion qi      = runtime->get_logical_subregion_by_color( q.lp , i );\n      |                                                                            ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:197:76: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  197 |         LogicalRegion qi_prev = runtime->get_logical_subregion_by_color( q.lp , i-1 );\n      |                                                                            ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:198:76: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  198 |         LogicalRegion qi_next = runtime->get_logical_subregion_by_color( q.lp , i+1 );\n      |                                                                            ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:199:79: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  199 |         LogicalRegion di      = runtime->get_logical_subregion_by_color( dpdt.lp , i );\n      |                                                                               ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:202:63: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  202 |             RegionRequirement( qi , READ_ONLY , EXCLUSIVE , q.lr ) );\n      |                                                               ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:206:68: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  206 |             RegionRequirement( qi_prev , READ_ONLY , EXCLUSIVE , q.lr ) );\n      |                                                                    ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:210:68: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  210 |             RegionRequirement( qi_next , READ_ONLY , EXCLUSIVE , q.lr ) );\n      |                                                                    ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:214:70: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  214 |             RegionRequirement( di , WRITE_DISCARD , EXCLUSIVE , dpdt.lr ) );\n      |                                                                      ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:226:76: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  226 |         LogicalRegion qN      = runtime->get_logical_subregion_by_color( q.lp , M-1 );\n      |                                                                            ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:227:76: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  227 |         LogicalRegion qN_prev = runtime->get_logical_subregion_by_color( q.lp , M-2 );\n      |                                                                            ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:228:79: error: \u2018struct state_type\u2019 has no member named \u2018lp\u2019\n  228 |         LogicalRegion dN      = runtime->get_logical_subregion_by_color( dpdt.lp , M-1 );\n      |                                                                               ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:231:63: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  231 |             RegionRequirement( qN , READ_ONLY , EXCLUSIVE , q.lr ) );\n      |                                                               ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:235:68: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  235 |             RegionRequirement( qN_prev , READ_ONLY , EXCLUSIVE , q.lr ) );\n      |                                                                    ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:239:70: error: \u2018struct state_type\u2019 has no member named \u2018lr\u2019\n  239 |             RegionRequirement( dN , WRITE_DISCARD , EXCLUSIVE , dpdt.lr ) );\n      |                                                                      ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp: In function \u2018double energy(const state_type&, const state_type&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:308:30: error: \u2018const struct state_type\u2019 has no member named \u2018num_partitions\u2019\n  308 |     const size_t N = q_state.num_partitions * q_state.partition_size;\n      |                              ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:308:55: error: \u2018const struct state_type\u2019 has no member named \u2018partition_size\u2019\n  308 |     const size_t N = q_state.num_partitions * q_state.partition_size;\n      |                                                       ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:311:38: error: \u2018const struct state_type\u2019 has no member named \u2018lr\u2019\n  311 |     RegionRequirement q_req( q_state.lr , READ_ONLY , EXCLUSIVE , q_state.lr );\n      |                                      ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:311:75: error: \u2018const struct state_type\u2019 has no member named \u2018lr\u2019\n  311 |     RegionRequirement q_req( q_state.lr , READ_ONLY , EXCLUSIVE , q_state.lr );\n      |                                                                           ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:317:38: error: \u2018const struct state_type\u2019 has no member named \u2018lr\u2019\n  317 |     RegionRequirement p_req( p_state.lr , READ_ONLY , EXCLUSIVE , p_state.lr );\n      |                                      ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:317:75: error: \u2018const struct state_type\u2019 has no member named \u2018lr\u2019\n  317 |     RegionRequirement p_req( p_state.lr , READ_ONLY , EXCLUSIVE , p_state.lr );\n      |                                                                           ^~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/odeint.cpp: At global scope:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/odeint.cpp:25:6: error: multiple definition of \u2018enum FieldIDs\u2019\n   25 | enum FieldIDs {\n      |      ^~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/system.hpp:13:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpha8xo_9w/shared_resize.hpp:18:6: note: previous definition here\n   18 | enum FieldIDs {\n      |      ^~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 1,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-1/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpeunwbns6/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpeunwbns6/odeint.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpeunwbns6/odeint.cpp:317:64: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  317 |                         runtime->get_logical_subregion_by_color(ctx, dpdt_lp,\n      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\n  318 |                             Point<1>((coord_t)i));\n      |                             ~~~~~~~~~~~~~~~~~~~~~               \nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpeunwbns6/odeint.cpp:4:\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 10,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-10/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.0s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjwuqo9ho/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 9.478,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      9.503,
+      8.339,
+      10.083,
+      10.359,
+      11.479,
+      14.69,
+      26.778
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 12,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-12/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp9gc76f8w/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 13.93,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      14.178,
+      15.498,
+      15.501,
+      15.788,
+      15.759,
+      20.91,
+      32.312
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 3,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-3/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpty226k5x/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 9.48,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      9.462,
+      8.471,
+      9.932,
+      10.043,
+      10.871,
+      15.294,
+      27.568
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 2,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-2/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp: In function \u2018void system_first_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:109:31: error: no match for \u2018operator-=\u2019 (operand types are \u2018Legion::ArraySyntax::AccessorRefHelper<double, LEGION_WRITE_DISCARD>\u2019 and \u2018double\u2019)\n  109 |         dpdt_acc[Point<1>(i)] -= coupling_lr;\n      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp: In function \u2018void system_center_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:145:31: error: no match for \u2018operator-=\u2019 (operand types are \u2018Legion::ArraySyntax::AccessorRefHelper<double, LEGION_WRITE_DISCARD>\u2019 and \u2018double\u2019)\n  145 |         dpdt_acc[Point<1>(i)] -= coupling_lr;\n      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp: In function \u2018void system_last_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:176:31: error: no match for \u2018operator-=\u2019 (operand types are \u2018Legion::ArraySyntax::AccessorRefHelper<double, LEGION_WRITE_DISCARD>\u2019 and \u2018double\u2019)\n  176 |         dpdt_acc[Point<1>(i)] -= coupling_lr;\n      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp: In function \u2018void launch_system(Legion::Context, Legion::Runtime*, Legion::LogicalPartition, Legion::LogicalRegion, Legion::LogicalPartition, Legion::LogicalRegion, size_t)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:267:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  267 |         LogicalRegion q0 = runtime->get_logical_subregion_by_color(ctx, q_lp, Point<1>(0));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:14:\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:268:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  268 |         LogicalRegion q1 = runtime->get_logical_subregion_by_color(ctx, q_lp, Point<1>(1));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:269:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  269 |         LogicalRegion d0 = runtime->get_logical_subregion_by_color(ctx, dpdt_lp, Point<1>(0));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:282:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  282 |         LogicalRegion qi = runtime->get_logical_subregion_by_color(ctx, q_lp, Point<1>(i));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:283:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  283 |         LogicalRegion ql = runtime->get_logical_subregion_by_color(ctx, q_lp, Point<1>(i - 1));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:284:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  284 |         LogicalRegion qr = runtime->get_logical_subregion_by_color(ctx, q_lp, Point<1>(i + 1));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:285:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  285 |         LogicalRegion di = runtime->get_logical_subregion_by_color(ctx, dpdt_lp, Point<1>(i));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:300:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  300 |         LogicalRegion qM = runtime->get_logical_subregion_by_color(ctx, q_lp, Point<1>(M - 1));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:301:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  301 |         LogicalRegion ql = runtime->get_logical_subregion_by_color(ctx, q_lp, Point<1>(M - 2));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:302:67: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  302 |         LogicalRegion dM = runtime->get_logical_subregion_by_color(ctx, dpdt_lp, Point<1>(M - 1));\n      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp: In function \u2018void launch_scale_sum2(Legion::Context, Legion::Runtime*, Legion::LogicalPartition, Legion::LogicalRegion, Legion::LogicalPartition, Legion::LogicalRegion, double, double, size_t)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:326:70: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  326 |         LogicalRegion dst_i = runtime->get_logical_subregion_by_color(ctx, dst_lp, Point<1>(i));\n      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpglxjkvuq/odeint.cpp:327:70: error: call of overloaded \u2018get_logical_subregion_by_color(Legion::Internal::TaskContext*&, Legion::LogicalPartition&, Legion::Point<1, long long int>)\u2019 is ambiguous\n  327 |         LogicalRegion src_i = runtime->get_logical_subregion_by_color(ctx, src_lp, Point<1>(i));\n      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7072:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, Legion::Color)\u2019\n 7072 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/include/legion.h:7075:21: note: candidate: \u2018Legion::LogicalRegion Legion::Runtime::get_logical_subregion_by_color(Legion::Context, Legion::LogicalPartition, const Legion::DomainPoint&)\u2019\n 7075 |       LogicalRegion get_logical_subregion_by_color(Context ctx,\n      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 4,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-4/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 2,
+    "build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Using Legion_DIR from environment: /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid/share/Legion/cmake\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Using BOOST_ROOT from environment: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n-- Found Boost: /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include (found version \"1.64.0\")\n-- Configuring done (2.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp8ms770xr/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "build_stderr": "CMake Warning (dev) at CMakeLists.txt:13 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  CMake variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  Environment variable BOOST_ROOT is set to:\n\n    /Users/robsonlab/Teetly/hpx/boost_1_64_0/install\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n  Policy CMP0167 is not set: The FindBoost module is removed.  Run \"cmake\n  --help-policy CMP0167\" for policy details.  Use the cmake_policy command to\n  set the policy and suppress this warning.\n\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nIn file included from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/vector.hpp:21,\n                 from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/util/ublas_wrapper.hpp:23,\n                 from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint.hpp:25,\n                 from /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp8ms770xr/odeint.cpp:17:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp: In member function \u2018void boost::numeric::ublas::unbounded_array<T, ALLOC>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp:299:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n  299 |             ar & serialization::make_array(data_, s);\n      |                                 ^~~~~~~~~~\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp: In member function \u2018void boost::numeric::ublas::bounded_array<T, N, ALLOC>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp:494:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n  494 |             ar & serialization::make_array(data_, s);\n      |                                 ^~~~~~~~~~\nIn file included from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/util/ublas_wrapper.hpp:24:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/matrix.hpp: In member function \u2018void boost::numeric::ublas::c_matrix<T, M, N>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/matrix.hpp:5977:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n 5977 |             ar & serialization::make_array(data_, N);\n      |                                 ^~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnxzy0mxk/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nIn file included from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/vector.hpp:21,\n                 from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/util/ublas_wrapper.hpp:23,\n                 from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint.hpp:25,\n                 from /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpnxzy0mxk/odeint.cpp:17:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp: In member function \u2018void boost::numeric::ublas::unbounded_array<T, ALLOC>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp:299:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n  299 |             ar & serialization::make_array(data_, s);\n      |                                 ^~~~~~~~~~\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp: In member function \u2018void boost::numeric::ublas::bounded_array<T, N, ALLOC>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp:494:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n  494 |             ar & serialization::make_array(data_, s);\n      |                                 ^~~~~~~~~~\nIn file included from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/util/ublas_wrapper.hpp:24:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/matrix.hpp: In member function \u2018void boost::numeric::ublas::c_matrix<T, M, N>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/matrix.hpp:5977:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n 5977 |             ar & serialization::make_array(data_, N);\n      |                                 ^~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 7,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-7/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.0s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nIn file included from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/vector.hpp:21,\n                 from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/algebra/algebra_dispatcher.hpp:25,\n                 from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/stepper/symplectic_rkn_sb3a_mclachlan.hpp:26,\n                 from /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp:19:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp: In member function \u2018void boost::numeric::ublas::unbounded_array<T, ALLOC>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp:299:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n  299 |             ar & serialization::make_array(data_, s);\n      |                                 ^~~~~~~~~~\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp: In member function \u2018void boost::numeric::ublas::bounded_array<T, N, ALLOC>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/storage.hpp:494:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n  494 |             ar & serialization::make_array(data_, s);\n      |                                 ^~~~~~~~~~\nIn file included from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/algebra/algebra_dispatcher.hpp:26:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/matrix.hpp: In member function \u2018void boost::numeric::ublas::c_matrix<T, M, N>::serialize(Archive&, unsigned int)\u2019:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/ublas/matrix.hpp:5977:33: error: \u2018make_array\u2019 is not a member of \u2018boost::serialization\u2019\n 5977 |             ar & serialization::make_array(data_, N);\n      |                                 ^~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp: In member function \u2018const auto& coeff_extractor::a() const\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp:58:36: error: \u2018const boost::numeric::odeint::symplectic_nystroem_stepper_base<6, 4, std::vector<double>, std::vector<double>, double, std::vector<double>, std::vector<double>, double, boost::numeric::odeint::range_algebra, boost::numeric::odeint::default_operations, boost::numeric::odeint::initially_resizer>::coef_type boost::numeric::odeint::symplectic_nystroem_stepper_base<6, 4, std::vector<double>, std::vector<double>, double, std::vector<double>, std::vector<double>, double, boost::numeric::odeint::range_algebra, boost::numeric::odeint::default_operations, boost::numeric::odeint::initially_resizer>::m_coef_a\u2019 is private within this context\n   58 |     const auto& a() const { return m_coef_a; }\n      |                                    ^~~~~~~~\nIn file included from /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/stepper/symplectic_rkn_sb3a_mclachlan.hpp:22:\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/stepper/base/symplectic_rkn_stepper_base.hpp:296:21: note: declared private here\n  296 |     const coef_type m_coef_a;\n      |                     ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp: In member function \u2018const auto& coeff_extractor::b() const\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp:59:36: error: \u2018const boost::numeric::odeint::symplectic_nystroem_stepper_base<6, 4, std::vector<double>, std::vector<double>, double, std::vector<double>, std::vector<double>, double, boost::numeric::odeint::range_algebra, boost::numeric::odeint::default_operations, boost::numeric::odeint::initially_resizer>::coef_type boost::numeric::odeint::symplectic_nystroem_stepper_base<6, 4, std::vector<double>, std::vector<double>, double, std::vector<double>, std::vector<double>, double, boost::numeric::odeint::range_algebra, boost::numeric::odeint::default_operations, boost::numeric::odeint::initially_resizer>::m_coef_b\u2019 is private within this context\n   59 |     const auto& b() const { return m_coef_b; }\n      |                                    ^~~~~~~~\n/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/include/boost/numeric/odeint/stepper/base/symplectic_rkn_stepper_base.hpp:297:21: note: declared private here\n  297 |     const coef_type m_coef_b;\n      |                     ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp:255:5: error: \u2018DomainColoring\u2019 was not declared in this scope\n  255 |     DomainColoring ghost_coloring;\n      |     ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp:259:9: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  259 |         ghost_coloring[(Color)i] = Domain(Rect<1>(lo, hi));\n      |         ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp:261:40: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  261 |     IndexPartition ghost_ip = runtime->create_index_partition(\n      |                                        ^~~~~~~~~~~~~~~~~~~~~~\n      |                                        get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp14nfhph2/odeint.cpp:262:28: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  262 |         ctx, is, color_is, ghost_coloring, LEGION_ALIASED_KIND);\n      |                            ^~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 15,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-15/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:263:5: error: \u2018DomainColoring\u2019 was not declared in this scope\n  263 |     DomainColoring disjoint_coloring;\n      |     ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:265:9: error: \u2018disjoint_coloring\u2019 was not declared in this scope\n  265 |         disjoint_coloring[i] = Domain(Rect<1>((coord_t)(i * G),\n      |         ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:268:43: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  268 |     IndexPartition disjoint_ip = runtime->create_index_partition(\n      |                                           ^~~~~~~~~~~~~~~~~~~~~~\n      |                                           get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:269:32: error: \u2018disjoint_coloring\u2019 was not declared in this scope\n  269 |         ctx, is, color_domain, disjoint_coloring, true /*disjoint*/);\n      |                                ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:278:19: error: expected \u2018;\u2019 before \u2018ghost_coloring\u2019\n  278 |     DomainColoring ghost_coloring;\n      |                   ^~~~~~~~~~~~~~~\n      |                   ;\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:282:9: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  282 |         ghost_coloring[i] = Domain(Rect<1>(lo, hi));\n      |         ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:284:40: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  284 |     IndexPartition ghost_ip = runtime->create_index_partition(\n      |                                        ^~~~~~~~~~~~~~~~~~~~~~\n      |                                        get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpjofuwat8/odeint.cpp:285:32: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  285 |         ctx, is, color_domain, ghost_coloring, false /*aliased*/);\n      |                                ^~~~~~~~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 5,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-5/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpi7xpi5t8/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 9.762,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      10.243,
+      8.487,
+      9.495,
+      9.785,
+      10.486,
+      15.43,
+      27.598
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 6,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-6/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.2s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:252:5: error: \u2018DomainPointColoring\u2019 was not declared in this scope\n  252 |     DomainPointColoring disjoint_coloring;\n      |     ^~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:254:9: error: \u2018disjoint_coloring\u2019 was not declared in this scope\n  254 |         disjoint_coloring[DomainPoint(Point<1>(i))] =\n      |         ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:258:18: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  258 |         runtime->create_index_partition(ctx, is, color_is,\n      |                  ^~~~~~~~~~~~~~~~~~~~~~\n      |                  get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:259:41: error: \u2018disjoint_coloring\u2019 was not declared in this scope\n  259 |                                         disjoint_coloring,\n      |                                         ^~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:270:24: error: expected \u2018;\u2019 before \u2018ghost_coloring\u2019\n  270 |     DomainPointColoring ghost_coloring;\n      |                        ^~~~~~~~~~~~~~~\n      |                        ;\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:274:9: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  274 |         ghost_coloring[DomainPoint(Point<1>(i))] = Domain(Rect<1>(glo, ghi));\n      |         ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:277:18: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  277 |         runtime->create_index_partition(ctx, is, color_is,\n      |                  ^~~~~~~~~~~~~~~~~~~~~~\n      |                  get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:278:41: error: \u2018ghost_coloring\u2019 was not declared in this scope\n  278 |                                         ghost_coloring,\n      |                                         ^~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:284:14: error: \u2018class Legion::Runtime\u2019 has no member named \u2018fill\u2019\n  284 |     runtime->fill(ctx, q_lr, q_lr, FID_VAL, 0.0);\n      |              ^~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp12i2yums/odeint.cpp:285:14: error: \u2018class Legion::Runtime\u2019 has no member named \u2018fill\u2019\n  285 |     runtime->fill(ctx, dpdt_lr, dpdt_lr, FID_VAL, 0.0);\n      |              ^~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 18,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-18/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": false,
+    "code_only_build_returncode": 2,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp: In function \u2018void top_level_task(const Legion::Task*, const std::vector<Legion::PhysicalRegion>&, Legion::Context, Legion::Runtime*)\u2019:\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:312:9: error: \u2018DomainPointColoring\u2019 was not declared in this scope\n  312 |         DomainPointColoring coloring;\n      |         ^~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:314:13: error: \u2018coloring\u2019 was not declared in this scope\n  314 |             coloring[DomainPoint(Point<1>(i))] =\n      |             ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:316:32: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  316 |         disjoint_ip = runtime->create_index_partition(\n      |                                ^~~~~~~~~~~~~~~~~~~~~~\n      |                                get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:317:32: error: \u2018coloring\u2019 was not declared in this scope\n  317 |             ctx, is, color_is, coloring, LEGION_DISJOINT_KIND);\n      |                                ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:325:9: error: \u2018DomainPointColoring\u2019 was not declared in this scope\n  325 |         DomainPointColoring coloring;\n      |         ^~~~~~~~~~~~~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:329:13: error: \u2018coloring\u2019 was not declared in this scope\n  329 |             coloring[DomainPoint(Point<1>(i))] =\n      |             ^~~~~~~~\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:332:29: error: \u2018class Legion::Runtime\u2019 has no member named \u2018create_index_partition\u2019; did you mean \u2018get_index_partition\u2019?\n  332 |         ghost_ip = runtime->create_index_partition(\n      |                             ^~~~~~~~~~~~~~~~~~~~~~\n      |                             get_index_partition\n/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmp4pu961nz/odeint.cpp:333:32: error: \u2018coloring\u2019 was not declared in this scope\n  333 |             ctx, is, color_is, coloring, LEGION_ALIASED_KIND);\n      |                                ^~~~~~~~\nmake[2]: *** [CMakeFiles/odeint.dir/build.make:79: CMakeFiles/odeint.dir/odeint.cpp.o] Error 1\nmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/odeint.dir/all] Error 2\nmake: *** [Makefile:91: all] Error 2\n",
+    "code_only_run_success": false,
+    "code_only_run_returncodes": [],
+    "code_only_run_stdouts": [],
+    "code_only_run_stderrs": [],
+    "code_only_runtime": -1,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "scaling_performed": false,
+    "scaling_processors": null,
+    "scaling_runtimes": null,
+    "scaling_returncodes": null,
+    "scaling_success": null
+  },
+  {
+    "app": "osc_chain_1d",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "HPX",
+    "dest_model": "Legion",
+    "output_number": 11,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/opus/output-11/repo",
+    "input_token_count": 919040,
+    "output_token_count": 2686812,
+    "request_count": 140,
+    "generation_time": 119630.46149253845,
+    "build_success": false,
+    "build_returncode": 1,
+    "build_stdout": "-- Configuring incomplete, errors occurred!\n",
+    "build_stderr": "CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n  Compatibility with CMake < 3.5 has been removed from CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\n\n  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.\n\n\n",
+    "run_success": false,
+    "run_returncodes": [],
+    "run_stdouts": [],
+    "run_stderrs": [],
+    "runtime": -1,
+    "all_outputs_match": false,
+    "overall_status": {
+      "odeint.txt": "BUILD_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "-- The CXX compiler identification is GNU 14.3.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /gridapps/software/GCCcore/14.3.0/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found ZLIB: /gridapps/software/zlib/1.3.1-GCCcore-14.3.0/lib/libz.so (found version \"1.3.1\")\n-- Configuring done (1.1s)\n-- Generating done (0.0s)\n-- Build files have been written to: /Users/robsonlab/scratch/hpx_to_legion_repo/osc_chain_1d/scratch/opus/tmpzerrnk9s/build\n[ 50%] Building CXX object CMakeFiles/odeint.dir/odeint.cpp.o\n[100%] Linking CXX executable odeint\n[100%] Built target odeint\n",
+    "code_only_build_stderr": "CMake Warning (dev) at CMakeLists.txt:7 (find_package):\n  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n  variables.  Run \"cmake --help-policy CMP0144\" for policy details.  Use the\n  cmake_policy command to set the policy and suppress this warning.\n\n  Environment variable LEGION_ROOT is set to:\n\n    /Users/robsonlab/Teetly/legion-legion-25.06.0/install_scigrid\n\n  For compatibility, find_package is ignoring the variable, but code in a\n  .cmake module might still use it.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 13.168,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "odeint.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      13.038,
+      15.067,
+      16.069,
+      22.284,
+      23.233,
+      28.655,
+      30.303
+    ],
+    "scaling_returncodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": true
+  }
+]

@@ -1,0 +1,153 @@
+output_number,phase,source,error_type,error_message,app,llm,dest_model
+14,build,build,Syntax_Error,"binary_tree.cpp:90:66: error: ‘class Legion::ArraySyntax::AccessorRefHelper<FixedString, LEGION_READ_WRITE>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+14,build,code_only_build,Syntax_Error,"binary_tree.cpp:90:66: error: ‘class Legion::ArraySyntax::AccessorRefHelper<FixedString, LEGION_READ_WRITE>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+9,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+17,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+19,build,build,Syntax_Error,"binary_tree.cpp:194:45: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+19,build,code_only_build,Syntax_Error,"binary_tree.cpp:194:45: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+8,build,build,Syntax_Error,"binary_tree.cpp:182:66: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+8,build,code_only_build,Syntax_Error,"binary_tree.cpp:182:66: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+13,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+16,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+0,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+1,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+10,build,build,Syntax_Error,"binary_tree.cpp:175:40: error: ‘const class Legion::ArraySyntax::AccessorRefHelper<FixedString, LEGION_READ_PRIV>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+10,build,build,Type_Error,"binary_tree.cpp:175:45: error: could not convert ‘{true, <expression error>}’ from ‘<brace-enclosed initializer list>’ to ‘BinaryTree<int>::SearchResult’",AsyncSTM,claude-opus-4-6,Legion
+10,build,code_only_build,Syntax_Error,"binary_tree.cpp:175:40: error: ‘const class Legion::ArraySyntax::AccessorRefHelper<FixedString, LEGION_READ_PRIV>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+10,build,code_only_build,Type_Error,"binary_tree.cpp:175:45: error: could not convert ‘{true, <expression error>}’ from ‘<brace-enclosed initializer list>’ to ‘BinaryTree<int>::SearchResult’",AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+12,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+3,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+2,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+4,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+7,build,build,Syntax_Error,"binary_tree.cpp:185:39: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+7,build,code_only_build,Syntax_Error,"binary_tree.cpp:185:39: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘str’",AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+15,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x53): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x64): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x76): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x91): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xc3): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x237c): undefined reference to `gzflush',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,/usr/bin/ld: legion_profiling_serializer.cc:(.text+0x2385): undefined reference to `gzclose',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0x928b): undefined reference to `gzwrite',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,legion_profiling_serializer.cc:(.text+0xa178): undefined reference to `gzopen',AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+5,build,build,Linker_Error,collect2: error: ld returned 1 exit status,AsyncSTM,claude-opus-4-6,Legion
+6,build,build,Syntax_Error,"binary_tree.cpp:104:48: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+6,build,code_only_build,Syntax_Error,"binary_tree.cpp:104:48: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+18,build,build,Syntax_Error,"binary_tree.cpp:204:43: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+18,build,code_only_build,Syntax_Error,"binary_tree.cpp:204:43: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+11,build,build,Syntax_Error,"binary_tree.cpp:89:29: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+11,build,build,Syntax_Error,"binary_tree.cpp:206:68: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+11,build,code_only_build,Syntax_Error,"binary_tree.cpp:89:29: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion
+11,build,code_only_build,Syntax_Error,"binary_tree.cpp:206:68: error: ‘class Legion::ArraySyntax::AccessorRefHelper<NodeValue, LEGION_READ_WRITE>’ has no member named ‘data’",AsyncSTM,claude-opus-4-6,Legion

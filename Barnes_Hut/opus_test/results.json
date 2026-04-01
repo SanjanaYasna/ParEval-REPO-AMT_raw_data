@@ -1,0 +1,82 @@
+[
+  {
+    "app": "Barnes_Hut",
+    "prompt_strategy": "naive",
+    "llm_name": "claude-opus-4-6",
+    "source_model": "MPI",
+    "dest_model": "HPX",
+    "output_number": 1,
+    "path": "/Users/robsonlab/scratch/hpx_to_legion_repo/Barnes_Hut/opus_test/output-1/repo",
+    "input_token_count": 862260,
+    "output_token_count": 319936,
+    "request_count": 100,
+    "generation_time": 18104.00372982025,
+    "build_success": true,
+    "build_returncode": 0,
+    "build_stdout": "c++ -O2 -std=c++17 -Wall -fPIC -DHPX_APPLICATION_EXPORTS -DHPX_DISABLE_ASSERTS -DBOOST_DISABLE_ASSERTS -std=c++14  -o barnes-hut main.cpp /Users/robsonlab/Teetly/hpx/install_1_5/lib/libhpx.so.1.5.1 /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/lib/libboost_system.so /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/lib/libboost_program_options.so /Users/robsonlab/Teetly/hpx/boost_1_64_0/install/lib/libboost_filesystem.so /Users/robsonlab/Teetly/hpx/gperftools-2.9.1/install/lib/libtcmalloc_minimal.so /gridapps/software/hwloc/2.10.0-GCCcore-13.3.0/lib/libhwloc.so -latomic -ldl -lrt /Users/robsonlab/Teetly/hpx/install_1_5/lib/libhpx_wrap.a /Users/robsonlab/Teetly/hpx/install_1_5/lib/libhpx_wrap.a /Users/robsonlab/Teetly/hpx/install_1_5/lib/libhpx_wrap.a -Wl,-wrap=main /Users/robsonlab/Teetly/hpx/install_1_5/lib/libhpx_init.a /Users/robsonlab/Teetly/hpx/install_1_5/lib/libhpx_init.a  -lm\n",
+    "build_stderr": "main.cpp: In function \u2018int hpx_main(boost::program_options::variables_map&)\u2019:\nmain.cpp:78:13: warning: unused variable \u2018last_chunk\u2019 [-Wunused-variable]\n   78 |         int last_chunk = npart - (num_threads - 1) * chunk;\n      |             ^~~~~~~~~~\n",
+    "run_success": true,
+    "run_returncodes": [
+      0
+    ],
+    "run_stdouts": [
+      ""
+    ],
+    "run_stderrs": [
+      ""
+    ],
+    "runtime": 7.296,
+    "all_outputs_match": false,
+    "overall_status": {
+      "barnes_hut.txt": "VALIDATION_FAIL"
+    },
+    "code_only_build_success": true,
+    "code_only_build_returncode": 0,
+    "code_only_build_stdout": "g++ -std=c++17 -O2 -Wall -Wextra -Wno-unused-parameter   -c -o main.o main.cpp\ng++ -std=c++17 -O2 -Wall -Wextra -Wno-unused-parameter -o barnes-hut main.o -L/Users/robsonlab/Teetly/hpx/install_1_5//lib -L/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/lib -lhpx_init -lhpx -lboost_program_options -lboost_system -lboost_filesystem -lpthread -ldl -Wl,-rpath,/Users/robsonlab/Teetly/hpx/install_1_5//lib:/Users/robsonlab/Teetly/hpx/boost_1_64_0/install/lib\n\n  Built: barnes-hut\n  Run:   ./barnes-hut --nparticles N --nsteps N --hpx:threads=N\n  Help:  ./barnes-hut --help\n\n",
+    "code_only_build_stderr": "main.cpp: In function \u2018int hpx_main(boost::program_options::variables_map&)\u2019:\nmain.cpp:78:13: warning: unused variable \u2018last_chunk\u2019 [-Wunused-variable]\n   78 |         int last_chunk = npart - (num_threads - 1) * chunk;\n      |             ^~~~~~~~~~\n",
+    "code_only_run_success": true,
+    "code_only_run_returncodes": [
+      0
+    ],
+    "code_only_run_stdouts": [
+      ""
+    ],
+    "code_only_run_stderrs": [
+      ""
+    ],
+    "code_only_runtime": 8.309,
+    "code_only_all_outputs_match": false,
+    "code_only_overall_status": {
+      "barnes_hut.txt": "VALIDATION_FAIL"
+    },
+    "scaling_performed": true,
+    "scaling_processors": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scaling_runtimes": [
+      -1,
+      -1,
+      62.111,
+      27.812,
+      21.255,
+      12.094,
+      8.472
+    ],
+    "scaling_returncodes": [
+      124,
+      124,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaling_success": false
+  }
+]

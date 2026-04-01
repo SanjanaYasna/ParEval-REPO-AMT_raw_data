@@ -1,0 +1,694 @@
+output_number,phase,source,error_type,error_message,app,llm,dest_model
+14,build,code_only_build,Type_Error,particle.hpp:142:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,octree.hpp:208:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,octree.hpp:221:41: error: ‘THETA’ was not declared in this scope; did you mean ‘TCSETA’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,octree.hpp:223:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,main.cpp:93:10: error: ‘hpx::collectives’ has not been declared,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,particle.hpp:142:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,octree.hpp:208:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,octree.hpp:221:41: error: ‘THETA’ was not declared in this scope; did you mean ‘TCSETA’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,octree.hpp:223:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,main.cpp:17:33: error: ‘par’ has not been declared in ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,main.cpp:18:22: error: ‘for_loop’ has not been declared in ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Syntax_Error,main.cpp:93:23: error: ‘broadcast’ is not a member of ‘hpx::collectives’; did you mean ‘broadcast_to’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,main.cpp:117:18: error: ‘par’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+14,build,code_only_build,Type_Error,main.cpp:117:9: error: ‘for_loop’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+9,build,build,Syntax_Error,octree.hpp:14:10: fatal error: hpx/modules/parallel_algorithm.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+9,build,build,Syntax_Error,octree.hpp:14:10: fatal error: hpx/modules/parallel_algorithm.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+9,build,code_only_build,Syntax_Error,octree.hpp:14:10: fatal error: hpx/modules/parallel_algorithm.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+9,build,code_only_build,Syntax_Error,octree.hpp:14:10: fatal error: hpx/modules/parallel_algorithm.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+17,build,code_only_build,Syntax_Error,particle.hpp:27:10: fatal error: hpx/modules/async.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+17,build,code_only_build,Syntax_Error,particle.hpp:27:10: fatal error: hpx/modules/async.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+19,build,build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+19,build,build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+19,build,code_only_build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+19,build,code_only_build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Syntax_Error,particle.hpp:45:47: error: ‘seed’ is not a member of ‘hpx::util’,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Type_Error,particle.hpp:130:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Syntax_Error,particle.hpp:45:47: error: ‘seed’ is not a member of ‘hpx::util’,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Type_Error,particle.hpp:130:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Syntax_Error,octree.hpp:258:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Syntax_Error,main.cpp:120:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Syntax_Error,main.cpp:132:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+8,build,code_only_build,Syntax_Error,main.cpp:143:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+13,build,code_only_build,Syntax_Error,main.cpp:9:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+13,build,code_only_build,Syntax_Error,main.cpp:9:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+16,build,build,Syntax_Error,main.cpp:10:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+16,build,build,Syntax_Error,main.cpp:10:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+16,build,code_only_build,Syntax_Error,main.cpp:10:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+16,build,code_only_build,Syntax_Error,main.cpp:10:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:14:19: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:16:16: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:32:34: error: expected primary-expression before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:36:1: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:73:32: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:73:51: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:101:31: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:101:48: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:102:31: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:102:48: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:103:31: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:103:48: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:110:27: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:110:57: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:111:27: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:111:65: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:112:27: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:112:57: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:113:27: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:113:65: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:114:27: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:114:57: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:115:27: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:115:65: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:125:37: error: ‘get_octant’ was not declared in this scope; did you mean ‘gethostent’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:151:28: error: ‘get_octant’ was not declared in this scope; did you mean ‘p_octant’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:173:49: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:177:18: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:177:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:181:18: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:181:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:185:18: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:185:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:199:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:199:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:199:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:199:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:201:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:201:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:201:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:202:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:202:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:203:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:203:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:203:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:204:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:204:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:205:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:205:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:205:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:206:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:206:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:208:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:214:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:214:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:215:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:216:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:216:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:217:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:218:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:218:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:219:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:244:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:244:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:244:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:244:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:246:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:246:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:246:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:247:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:247:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:248:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:248:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:248:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:249:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:249:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:250:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:250:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:250:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:251:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:251:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:253:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:259:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:259:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:260:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:261:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:261:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:262:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:263:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:263:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:264:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Declaration_Or_Function_Call_Error,main.cpp:81:71: error: too many initializers for ‘Space’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:94:5: error: ‘generate_random_particles’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:107:17: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:119:37: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:120:37: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:121:37: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:133:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:146:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:147:21: error: ‘update_particle_position_and_velocity’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:158:9: error: ‘print_summary’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:14:19: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:16:16: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:32:34: error: expected primary-expression before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,particle.hpp:36:1: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:56:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:73:32: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:73:51: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:101:31: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:101:48: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:102:31: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:102:48: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:103:31: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:103:48: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:110:27: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:110:57: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:111:27: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:111:65: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:112:27: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:112:57: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:113:27: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:113:65: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:114:27: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:114:57: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:115:27: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:115:65: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:125:37: error: ‘get_octant’ was not declared in this scope; did you mean ‘gethostent’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:151:28: error: ‘get_octant’ was not declared in this scope; did you mean ‘p_octant’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:173:49: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:177:18: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:177:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:181:18: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:181:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:185:18: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:185:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:199:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:199:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:199:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:199:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:201:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:201:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:201:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:202:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:202:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:203:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:203:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:203:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:204:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:204:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:205:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:205:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:205:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:206:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:206:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:208:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:214:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:214:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:215:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:216:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:216:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:217:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:218:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:218:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:219:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:244:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:244:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:244:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:244:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:246:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:246:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:246:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:247:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:247:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:248:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:248:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:248:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:249:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:249:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:250:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:250:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:250:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:251:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:251:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,octree.hpp:253:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:259:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:259:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:260:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:261:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:261:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:262:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:263:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:263:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:264:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,octree.hpp:290:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Declaration_Or_Function_Call_Error,main.cpp:81:71: error: too many initializers for ‘Space’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:94:5: error: ‘generate_random_particles’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:107:17: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:114:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:119:37: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:120:37: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:121:37: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:127:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:133:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Syntax_Error,main.cpp:140:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:146:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:147:21: error: ‘update_particle_position_and_velocity’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,build,Type_Error,main.cpp:158:9: error: ‘print_summary’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:14:19: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:16:16: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:32:34: error: expected primary-expression before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:36:1: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:73:32: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:73:51: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:101:31: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:101:48: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:102:31: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:102:48: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:103:31: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:103:48: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:110:27: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:110:57: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:111:27: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:111:65: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:112:27: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:112:57: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:113:27: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:113:65: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:114:27: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:114:57: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:115:27: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:115:65: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:125:37: error: ‘get_octant’ was not declared in this scope; did you mean ‘gethostent’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:151:28: error: ‘get_octant’ was not declared in this scope; did you mean ‘p_octant’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:173:49: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:177:18: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:177:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:181:18: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:181:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:185:18: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:185:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:199:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:199:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:199:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:199:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:201:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:201:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:201:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:202:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:202:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:203:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:203:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:203:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:204:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:204:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:205:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:205:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:205:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:206:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:206:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:208:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:214:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:214:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:215:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:216:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:216:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:217:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:218:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:218:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:219:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:244:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:244:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:244:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:244:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:246:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:246:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:246:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:247:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:247:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:248:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:248:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:248:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:249:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:249:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:250:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:250:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:250:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:251:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:251:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:253:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:259:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:259:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:260:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:261:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:261:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:262:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:263:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:263:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:264:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Declaration_Or_Function_Call_Error,main.cpp:81:71: error: too many initializers for ‘Space’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:94:5: error: ‘generate_random_particles’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:107:17: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:119:37: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:120:37: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:121:37: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:133:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:146:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:147:21: error: ‘update_particle_position_and_velocity’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:158:9: error: ‘print_summary’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:14:19: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:16:16: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:32:34: error: expected primary-expression before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,particle.hpp:36:1: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:56:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:73:32: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:73:51: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:101:31: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:101:48: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:102:31: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:102:48: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:103:31: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:103:48: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:110:27: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:110:57: error: ‘struct Space’ has no member named ‘boundary_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:111:27: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:111:65: error: ‘struct Space’ has no member named ‘origin_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:112:27: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:112:57: error: ‘struct Space’ has no member named ‘boundary_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:113:27: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:113:65: error: ‘struct Space’ has no member named ‘origin_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:114:27: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:114:57: error: ‘struct Space’ has no member named ‘boundary_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:115:27: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:115:65: error: ‘struct Space’ has no member named ‘origin_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:125:37: error: ‘get_octant’ was not declared in this scope; did you mean ‘gethostent’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:151:28: error: ‘get_octant’ was not declared in this scope; did you mean ‘p_octant’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:173:49: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:177:18: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:177:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:181:18: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:181:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:185:18: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:185:25: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:199:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:199:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:199:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:199:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:201:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:201:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:201:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:202:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:202:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:203:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:203:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:203:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:204:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:204:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:205:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:205:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:205:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:206:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:206:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:208:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:214:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:214:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:215:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:216:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:216:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:217:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:218:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:218:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:219:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:244:59: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:244:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:244:71: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:244:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:246:15: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:246:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:246:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:247:42: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:247:52: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:248:15: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:248:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:248:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:249:42: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:249:52: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:250:15: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:250:48: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:250:58: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:251:42: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:251:52: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,octree.hpp:253:33: error: ‘compute_distance’ was not declared in this scope; did you mean ‘compute_force’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:259:19: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:259:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:260:65: error: ‘struct Particle’ has no member named ‘x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:261:19: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:261:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:262:65: error: ‘struct Particle’ has no member named ‘y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:263:19: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:263:52: error: ‘struct Particle’ has no member named ‘mass’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:264:65: error: ‘struct Particle’ has no member named ‘z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,octree.hpp:290:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Declaration_Or_Function_Call_Error,main.cpp:81:71: error: too many initializers for ‘Space’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:94:5: error: ‘generate_random_particles’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:107:17: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:114:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:119:37: error: ‘struct Particle’ has no member named ‘force_x’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:120:37: error: ‘struct Particle’ has no member named ‘force_y’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:121:37: error: ‘struct Particle’ has no member named ‘force_z’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:127:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:133:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Syntax_Error,main.cpp:140:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:146:21: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:147:21: error: ‘update_particle_position_and_velocity’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+0,build,code_only_build,Type_Error,main.cpp:158:9: error: ‘print_summary’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+1,build,build,Syntax_Error,particle.hpp:28:10: fatal error: hpx/modules/parallel.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+1,build,build,Syntax_Error,particle.hpp:28:10: fatal error: hpx/modules/parallel.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+1,build,code_only_build,Syntax_Error,particle.hpp:28:10: fatal error: hpx/modules/parallel.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+1,build,code_only_build,Syntax_Error,particle.hpp:28:10: fatal error: hpx/modules/parallel.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+10,build,build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/program_options.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+10,build,build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/program_options.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+10,build,code_only_build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/program_options.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+10,build,code_only_build,Syntax_Error,main.cpp:7:10: fatal error: hpx/include/program_options.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Type_Error,"particle.hpp:220:49: error: no matching function for call to ‘reduce(const hpx::parallel::execution::parallel_policy&, int, int&, print_summary(Particle*, int, Space, int, int)::reduction_data&, print_summary(Particle*, int, Space, int, int)::<lambda(const print_summary(Particle*, int, Space, int, int)::reduction_data&, int)>, print_summary(Particle*, int, Space, int, int)::<lambda(const print_summary(Particle*, int, Space, int, int)::reduction_data&, const print_summary(Particle*, int, Space, int, int)::reduction_data&)>&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Syntax_Error,particle.hpp:99:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Syntax_Error,particle.hpp:220:43: error: ‘reduce’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Syntax_Error,octree.hpp:271:24: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Syntax_Error,octree.hpp:271:38: error: ‘par’ is not a member of ‘par’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Syntax_Error,main.cpp:130:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Syntax_Error,main.cpp:142:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,build,Syntax_Error,main.cpp:154:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Type_Error,"particle.hpp:220:49: error: no matching function for call to ‘reduce(const hpx::parallel::execution::parallel_policy&, int, int&, print_summary(Particle*, int, Space, int, int)::reduction_data&, print_summary(Particle*, int, Space, int, int)::<lambda(const print_summary(Particle*, int, Space, int, int)::reduction_data&, int)>, print_summary(Particle*, int, Space, int, int)::<lambda(const print_summary(Particle*, int, Space, int, int)::reduction_data&, const print_summary(Particle*, int, Space, int, int)::reduction_data&)>&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Syntax_Error,particle.hpp:99:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Syntax_Error,particle.hpp:220:43: error: ‘reduce’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Syntax_Error,octree.hpp:271:24: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Syntax_Error,octree.hpp:271:38: error: ‘par’ is not a member of ‘par’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Syntax_Error,main.cpp:130:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Syntax_Error,main.cpp:142:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+12,build,code_only_build,Syntax_Error,main.cpp:154:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Syntax_Error,particle.hpp:99:25: error: ‘par’ is not a member of ‘hpx::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Syntax_Error,main.cpp:100:39: error: ‘get_num_threads’ is not a member of ‘hpx’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:171:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:172:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:173:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:174:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:183:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:184:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:185:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:189:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:190:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:194:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/algorithms/for_loop.hpp:884:42: error: no matching function for call to ‘invoke(hpx::parallel::v2::detail::part_iterations<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, int, hpx::util::tuple<> >::fun_type&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/functional/invoke.hpp:133:5: error: no type named ‘type’ in ‘struct hpx::util::invoke_result<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int>, std::allocator<std::pair<long unsigned int, long unsigned int> > > >&>’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:171:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:172:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:173:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:174:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:183:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:184:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:185:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:189:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:190:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:194:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/algorithms/for_loop.hpp:884:42: error: no matching function for call to ‘invoke(hpx::parallel::v2::detail::part_iterations<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, int, hpx::util::tuple<> >::fun_type&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/functional/invoke.hpp:133:5: error: no type named ‘type’ in ‘struct hpx::util::invoke_result<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int>, std::allocator<std::pair<long unsigned int, long unsigned int> > > >&>’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:171:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:172:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:173:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:174:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:183:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:184:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:185:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:189:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:190:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:194:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/algorithms/for_loop.hpp:884:42: error: no matching function for call to ‘invoke(hpx::parallel::v2::detail::part_iterations<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, int, hpx::util::tuple<> >::fun_type&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/functional/invoke.hpp:133:5: error: no type named ‘type’ in ‘struct hpx::util::invoke_result<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int>, std::allocator<std::pair<long unsigned int, long unsigned int> > > >&>’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Syntax_Error,particle.hpp:98:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Syntax_Error,main.cpp:100:39: error: ‘get_num_threads’ is not a member of ‘hpx’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Syntax_Error,main.cpp:119:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Syntax_Error,main.cpp:136:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Syntax_Error,main.cpp:152:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,build,Type_Error,"main.cpp:214:21: error: no matching function for call to ‘init(hpx::program_options::options_description&, int&, char**&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Syntax_Error,particle.hpp:99:25: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Syntax_Error,main.cpp:100:39: error: ‘get_num_threads’ is not a member of ‘hpx’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:171:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:172:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:173:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:174:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:183:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:184:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:185:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:189:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:190:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:194:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/algorithms/for_loop.hpp:884:42: error: no matching function for call to ‘invoke(hpx::parallel::v2::detail::part_iterations<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, int, hpx::util::tuple<> >::fun_type&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/functional/invoke.hpp:133:5: error: no type named ‘type’ in ‘struct hpx::util::invoke_result<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int>, std::allocator<std::pair<long unsigned int, long unsigned int> > > >&>’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:171:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:172:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:173:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:174:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:183:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:184:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:185:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:189:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:190:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:194:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/algorithms/for_loop.hpp:884:42: error: no matching function for call to ‘invoke(hpx::parallel::v2::detail::part_iterations<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, int, hpx::util::tuple<> >::fun_type&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/functional/invoke.hpp:133:5: error: no type named ‘type’ in ‘struct hpx::util::invoke_result<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int>, std::allocator<std::pair<long unsigned int, long unsigned int> > > >&>’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:171:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:172:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:173:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:174:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:183:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:184:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:185:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:189:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:190:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/util/loop.hpp:194:22: error: no match for call to ‘(hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>) (__gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/parallel/algorithms/for_loop.hpp:884:42: error: no matching function for call to ‘invoke(hpx::parallel::v2::detail::part_iterations<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, int, hpx::util::tuple<> >::fun_type&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int> > >&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"/Users/robsonlab/Teetly/hpx/install_1_5/include/hpx/functional/invoke.hpp:133:5: error: no type named ‘type’ in ‘struct hpx::util::invoke_result<hpx_main(boost::program_options::variables_map&)::<lambda(const std::pair<long unsigned int, long unsigned int>&)>&, __gnu_cxx::__normal_iterator<const std::pair<long unsigned int, long unsigned int>*, std::vector<std::pair<long unsigned int, long unsigned int>, std::allocator<std::pair<long unsigned int, long unsigned int> > > >&>’",Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Syntax_Error,particle.hpp:98:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Syntax_Error,main.cpp:100:39: error: ‘get_num_threads’ is not a member of ‘hpx’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Syntax_Error,main.cpp:119:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Syntax_Error,main.cpp:136:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Syntax_Error,main.cpp:152:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+3,build,code_only_build,Type_Error,"main.cpp:214:21: error: no matching function for call to ‘init(hpx::program_options::options_description&, int&, char**&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+2,build,code_only_build,Syntax_Error,main.cpp:8:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+2,build,code_only_build,Syntax_Error,main.cpp:8:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+4,build,build,Syntax_Error,main.cpp:17:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+4,build,build,Syntax_Error,main.cpp:17:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+4,build,code_only_build,Syntax_Error,main.cpp:17:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+4,build,code_only_build,Syntax_Error,main.cpp:17:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,octree.hpp:246:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,octree.hpp:260:41: error: ‘THETA’ was not declared in this scope; did you mean ‘TCSETA’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,octree.hpp:264:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:119:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:132:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:144:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:158:62: error: ‘get_thread_id’ is not a member of ‘hpx::this_thread’; did you mean ‘get_thread_data’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:170:58: error: ‘get_thread_id’ is not a member of ‘hpx::this_thread’; did you mean ‘get_thread_data’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,octree.hpp:246:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,octree.hpp:260:41: error: ‘THETA’ was not declared in this scope; did you mean ‘TCSETA’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Type_Error,octree.hpp:264:32: error: ‘GRAVITY’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:118:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:131:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:143:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:158:62: error: ‘get_thread_id’ is not a member of ‘hpx::this_thread’; did you mean ‘get_thread_data’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+7,build,code_only_build,Syntax_Error,main.cpp:170:58: error: ‘get_thread_id’ is not a member of ‘hpx::this_thread’; did you mean ‘get_thread_data’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,octree.hpp:6:17: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,main.cpp:131:16: error: ‘broadcast’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,main.cpp:131:26: error: expected primary-expression before ‘>’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Type_Error,main.cpp:131:28: error: ‘broadcast’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Type_Error,particle.hpp:145:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,octree.hpp:6:17: error: expected unqualified-id before ‘...’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,main.cpp:131:16: error: ‘broadcast’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,main.cpp:131:26: error: expected primary-expression before ‘>’ token,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Type_Error,main.cpp:131:28: error: ‘broadcast’ was not declared in this scope,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,main.cpp:167:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,main.cpp:181:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+15,build,code_only_build,Syntax_Error,main.cpp:199:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Type_Error,particle.hpp:168:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Type_Error,particle.hpp:168:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Syntax_Error,main.cpp:121:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Syntax_Error,main.cpp:122:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Syntax_Error,main.cpp:134:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Syntax_Error,main.cpp:135:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Syntax_Error,main.cpp:147:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+5,build,code_only_build,Syntax_Error,main.cpp:148:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Type_Error,particle.hpp:150:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Type_Error,main.cpp:58:31: error: invalid initialization of reference of type ‘const Space&’ from expression of type ‘Particle*’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,main.cpp:80:29: error: ‘par’ is not a member of ‘hpx::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,main.cpp:92:29: error: ‘par’ is not a member of ‘hpx::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,main.cpp:103:29: error: ‘par’ is not a member of ‘hpx::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,particle.hpp:107:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,particle.hpp:108:35: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Type_Error,particle.hpp:150:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,octree.hpp:271:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,octree.hpp:272:35: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Type_Error,main.cpp:58:31: error: invalid initialization of reference of type ‘const Space&’ from expression of type ‘Particle*’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,main.cpp:79:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,main.cpp:91:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Syntax_Error,main.cpp:102:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,build,Type_Error,"main.cpp:158:21: error: no matching function for call to ‘init(hpx::program_options::options_description&, int&, char**&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Type_Error,particle.hpp:150:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Type_Error,main.cpp:58:31: error: invalid initialization of reference of type ‘const Space&’ from expression of type ‘Particle*’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,main.cpp:80:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,main.cpp:92:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,main.cpp:103:29: error: ‘par’ is not a member of ‘hpx::execution’; did you mean ‘hpx::parallel::execution::par’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,particle.hpp:107:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,particle.hpp:108:35: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Type_Error,particle.hpp:150:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,octree.hpp:271:20: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,octree.hpp:272:35: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Type_Error,main.cpp:58:31: error: invalid initialization of reference of type ‘const Space&’ from expression of type ‘Particle*’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,main.cpp:79:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,main.cpp:91:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Syntax_Error,main.cpp:102:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+6,build,code_only_build,Type_Error,"main.cpp:158:21: error: no matching function for call to ‘init(hpx::program_options::options_description&, int&, char**&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Type_Error,particle.hpp:168:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:96:16: error: ‘broadcast’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:182:24: error: ‘all_gather’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Type_Error,particle.hpp:168:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,octree.hpp:167:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,octree.hpp:340:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:96:16: error: ‘broadcast’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:134:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:135:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:147:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:148:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:160:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:161:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Syntax_Error,main.cpp:182:24: error: ‘all_gather’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,build,Type_Error,"main.cpp:246:21: error: no matching function for call to ‘init(hpx::program_options::options_description&, int&, char**&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Type_Error,particle.hpp:168:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:96:16: error: ‘broadcast’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:182:24: error: ‘all_gather’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Type_Error,particle.hpp:168:14: error: ‘in_space’ was not declared in this scope; did you mean ‘iswspace’?,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,octree.hpp:167:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,octree.hpp:340:20: error: ‘for_each’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:96:16: error: ‘broadcast’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:134:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:135:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception_info.hpp:15,",Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Linker_Error,"from /Users/robsonlab/Teetly/hpx_1_10/hpx/install/include/hpx/errors/exception.hpp:18,",Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:147:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:148:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:160:24: error: ‘for_loop’ is not a member of ‘hpx::parallel’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:161:39: error: ‘par’ is not a member of ‘hpx::parallel::execution’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Syntax_Error,main.cpp:182:24: error: ‘all_gather’ is not a member of ‘hpx::lcos’,Barnes_Hut,openai/gpt-oss-120b,HPX
+18,build,code_only_build,Type_Error,"main.cpp:246:21: error: no matching function for call to ‘init(hpx::program_options::options_description&, int&, char**&)’",Barnes_Hut,openai/gpt-oss-120b,HPX
+11,build,build,Syntax_Error,main.cpp:9:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+11,build,build,Syntax_Error,main.cpp:9:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+11,build,code_only_build,Syntax_Error,main.cpp:9:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
+11,build,code_only_build,Syntax_Error,main.cpp:9:10: fatal error: hpx/include/collectives.hpp: No such file or directory,Barnes_Hut,openai/gpt-oss-120b,HPX
